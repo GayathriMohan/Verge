@@ -1,0 +1,56 @@
+body
+{
+	background: #fff;
+}
+
+header
+{
+	background-color: #fa4b2a;
+	height: 60px;
+	position: relative;
+    width: 100%;
+    display: block;
+}
+.logo
+{
+	
+ 
+    width: 62%;
+    float: left;
+}
+.new-articles
+{
+	text-decoration: none;
+	color: white;
+}
+.logo img
+{
+	width: 73%;
+    margin: 6% 0% 0% 0%;
+}
+.navigation-container
+{
+
+    height: 100%;
+    width: 19%;
+    float: left;
+
+}
+.n-article
+{
+	width: 25%;
+	position: absolute;
+	top: 20%;
+	right: 0;
+}
+.new-articles strong
+{
+	display: block;
+    font-size: 1.7rem;
+}
+.new-articles em
+{
+	display: block;
+    font-size: 11px;
+    line-height: 1.5em;
+}
