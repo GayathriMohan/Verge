@@ -6,17 +6,71 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="css/verge.css">
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<script type="text/javascript" src="js/verge.js"></script>
 </head>
-<body>
+<body onclick="closenav()">
 		<div class="full-container">
 
 				<header class="pageheader">
 
 						<div class="navigation-container">
-								<a href="#">
-									<img src="images/menu.png" alt="menu">
+								<a href="#" >
+									<img src="images/menu.png" alt="menu" onclick="opennav()"> 
+
 								</a>
 						</div>
+
+						<nav class="nav-menu" id="nav-menu">
+								<ul>
+										<li class="user">
+												<a href="#">
+														<img src="https://cdn0.vox-cdn.com/images/verge/default-avatar.v9899025.gif" alt="signup">
+
+    														<div>Log in | Sign up</div>
+												</a>
+										</li>
+										<li id="remain"> 
+												<a href="#">HOME</a>
+										</li>
+										<li id="remain">
+												<a href="#">LONGFORM</a>
+										</li>
+										<li id="remain"> 
+												<a href="#">REVIEWS</a>
+										</li>
+										<li id="remain"> 
+												<a href="#">VIDEO</a>
+										</li>
+										<li id="tech"> 
+												<a href="#">TECH</a>
+										</li>
+										<li id="circuit"> 
+												<a href="#">CIRCUIT BREAKER</a>
+										</li>
+										<li id="science"> 
+												<a href="#">SCIENCE</a>
+										</li>
+										<li id="entertainment"> 
+												<a href="#">ENTERTAINMENT</a>
+										</li>
+										<li id="car"> 
+												<a href="#">CARS</a>
+										</li>
+										<li id="tl"> 
+												<a href="#">TL;DR</a>
+										</li>
+										<li id="remain"> 
+												<a href="#">FORUMS</a>
+										</li>
+										<li id="remain"> 	
+												<a href="#">SEARCH</a>
+										</li>
+										<li id="remain">
+												<a href="#">MORE SECTIONS</a>
+										</li>
+								</ul>			 
+
+						</nav>
 
 						<div class="logo">
 								<a href="/">
@@ -25,23 +79,22 @@
 						</div>
 
 						<div class="n-article">
-								<a href="" class="new-articles">
+								<a href="#" class="new-articles">
 										<strong>13</strong>
 										<em>NEW ARTICLES</em>
 								</a>
-						</div>
-						
-
-					
+						</div>	
 				</header>
-				<div class="body-content">
+
+
+				<main>
 						
 						<div class="data-analysis">
 
 									<div class="data-analysis-content" id="firstcontent">
 										
 
-											<a href="">
+											<a href="#">
 												
 													<div class="da-field">
 														<h2>The Shadow Brokers hack is starting to look like Russia vs. NSA</h2>
@@ -49,7 +102,7 @@
 											</a>
 									</div>
 
-									<div class="data-analysis-content " id="secondcontent">
+									<div class="data-analysis-content" id="secondcontent">
 										
 									</div>
 
@@ -69,20 +122,20 @@
 						<div class="artile-display"></div>
 						<div class="artile-display"></div>
 						
-						<a href=""></a>
-				</div>
+						<a href="#"></a>
+				</main>
 
-				<a href=""></a>
+				<a href="#"></a>
 
-				<div class="page-footer">
-						<footer>
-								<div class="search"></div>
-								<div class="col first"></div>
-								<div class="col second"></div>
-								<div class="social-media-links"></div>
-								<div class="vox-media"></div>
-						</footer>
-				</div>
+				
+				<footer>
+							<div class="search"></div>
+							<div class="col first"></div>
+							<div class="col second"></div>
+							<div class="social-media-links"></div>
+							<div class="vox-media"></div>
+				</footer>
+				
 		</div>
 </body>
 </html>
