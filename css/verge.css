@@ -13,9 +13,9 @@ header
 }
 .logo
 {
-	
- 
-    width: 62%;
+	height: inherit;
+    position: relative;
+    width: 200px;
     float: left;
 }
 .new-articles
@@ -26,31 +26,82 @@ header
 .logo img
 {
 	width: 73%;
-    margin: 6% 0% 0% 0%;
+    height: 58%;
+    position: absolute;
+    top: 17%;
+    left: 0%;
 }
 .navigation-container
 {
 
-    height: 100%;
-    width: 19%;
+    height: inherit;
+    width: 60px;
     float: left;
+    position: relative;
 
+
+}
+.navigation-container img
+{
+	height: 45%;
+    width: 40%;
+    position: absolute;
+    top: 23%;
+    left: 30%;
 }
 .n-article
 {
-	width: 25%;
-	position: absolute;
-	top: 20%;
-	right: 0;
+	width: 80px;
+    height: 50px;
+    border-left: 1px solid #fff;
+    position: absolute;
+    top: 10%;
+    right: 0%;
 }
 .new-articles strong
 {
 	display: block;
-    font-size: 1.7rem;
+    font-size: 35px;
+    text-align: center;
 }
 .new-articles em
 {
 	display: block;
-    font-size: 11px;
+    font-size: 9px;
+    font-weight: bold;
+    text-align: center;
     line-height: 1.5em;
 }
+
+.data-analysis-content
+{
+	min-height: 175px;
+	background-repeat: no-repeat;
+    
+
+}
+#firstcontent
+{
+	background: url("https://cdn0.vox-cdn.com/thumbor/oNQDZlb6fKgqUoAviA9nEPFR8oU=/156x0:697x541/350x350/filters:format(webp)/cdn0.vox-cdn.com/uploads/chorus_image/image/50424055/nsa.0.jpg");
+	background-repeat: no-repeat;
+}
+#secondcontent
+{
+	background-image: url("https://cdn0.vox-cdn.com/thumbor/Ff486usL8jtji6HN0XALevSFtRE=/0x0:2039x1147/340x192/filters:format(webp)/cdn0.vox-cdn.com/uploads/chorus_image/image/50419973/google2_2040.0.jpg");
+}
+#thirdcontent
+{
+	background-image: url("https://cdn3.vox-cdn.com/thumbor/2N7UQNUe4Wb8x3s4fWgDECXBTOY=/0x107:2039x1254/340x192/filters:format(webp)/cdn0.vox-cdn.com/uploads/chorus_image/image/50400891/jbareham_160811_1180_A_0118.0.0.jpg");
+}
+.data-analysis-content a
+{
+	background: transparent;
+	text-decoration: none;
+}
+.data-analysis-content h2
+{
+	color: white;
+	font-size: 2rem;
+	font-family: Georgia,serif;
+}
+
