@@ -7,127 +7,186 @@
 	<link rel="stylesheet" type="text/css" href="css/verge.css">
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
 	<script type="text/javascript" src="js/verge.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
 </head>
 <body onclick="closenav()">
-		<div class="full-container">
+	<div class="full-container">
+		<header class="pageheader">
+			<div class="navigation-container">
+				<a href="#" >
+					<img src="images/menu.png" alt="menu" onclick="opennav()"> 
 
-				<header class="pageheader">
-
-						<div class="navigation-container">
-								<a href="#" >
-									<img src="images/menu.png" alt="menu" onclick="opennav()"> 
-
-								</a>
+				</a>
+			</div>
+				<nav class="nav-menu" id="nav-menu">
+					<ul>
+						<li class="user">
+							<a href="#">
+								<img src="https://cdn0.vox-cdn.com/images/verge/default-avatar.v9899025.gif" alt="signup">
+    								<div>Log in | Sign up</div>
+							</a>
+						</li>
+						<li id="remain"> 
+							<a href="#">HOME</a>
+						</li>
+						<li id="remain">
+							<a href="#">LONGFORM</a>
+						</li>
+						<li id="remain"> 
+							<a href="#">REVIEWS</a>
+						</li>
+						<li id="remain"> 
+							<a href="#">VIDEO</a>
+						</li>
+						<li id="tech"> 
+							<a href="#">TECH</a>
+						</li>
+						<li id="circuit"> 
+							<a href="#">CIRCUIT BREAKER</a>
+						</li>
+						<li id="science"> 
+							<a href="#">SCIENCE</a>
+						</li>
+						<li id="entertainment"> 
+							<a href="#">ENTERTAINMENT</a>
+						</li>
+						<li id="car"> 
+							<a href="#">CARS</a>
+						</li>
+						<li id="tl"> 
+							<a href="#">TL;DR</a>
+						</li>
+						<li id="remain"> 
+							<a href="#">FORUMS</a>
+						</li>
+						<li id="remain"> 	
+							<a href="#">SEARCH</a>
+						</li>
+						<li id="remain">
+							<a href="#">MORE SECTIONS</a>
+						</li>
+					</ul>			 
+				</nav>
+				<div class="nav-hidden-menu" id="nav-hidden-menu" onclick="closeNav()"></div>
+				<nav class="right-articles" id="right-articles">
+					<div class="new-articles-side-bar">
+						<div class="six-articles first">
+								<h3>August 19, 2016</h3>
+								<ul class="sublist-six-articles">
+									<li class="articles-display">
+										<span>11.24pm</span>
+										<a href="#">
+           									Frank Ocean plays new songs on mysterious live stream
+          								</a>
+          								
+									</li>
+									<li class="articles-display">
+										<span>4.20am</span>
+										<a href="#">								
+            								The Vision Mercedes-Maybach 6 coupe concept is a retro-futuristic stunner
+          								</a>
+									</li>
+									<li class="articles-display">
+										<span>11.24pm</span>
+										<a href="#">
+           									 Frank Ocean plays new songs on mysterious live stream
+          								</a>
+									</li>
+									<li class="articles-display">
+										<span>11.24pm</span>
+										<a href="#">
+           									 Frank Ocean plays new songs on mysterious live stream
+          								</a>
+									</li>
+									<li class="articles-display">
+										<span>11.24pm</span>
+										<a href="#">
+           									 Frank Ocean plays new songs on mysterious live stream
+          								</a>
+									</li>
+								</ul>
 						</div>
-
-						<nav class="nav-menu" id="nav-menu">
-								<ul>
-										<li class="user">
-												<a href="#">
-														<img src="https://cdn0.vox-cdn.com/images/verge/default-avatar.v9899025.gif" alt="signup">
-
-    														<div>Log in | Sign up</div>
-												</a>
-										</li>
-										<li id="remain"> 
-												<a href="#">HOME</a>
-										</li>
-										<li id="remain">
-												<a href="#">LONGFORM</a>
-										</li>
-										<li id="remain"> 
-												<a href="#">REVIEWS</a>
-										</li>
-										<li id="remain"> 
-												<a href="#">VIDEO</a>
-										</li>
-										<li id="tech"> 
-												<a href="#">TECH</a>
-										</li>
-										<li id="circuit"> 
-												<a href="#">CIRCUIT BREAKER</a>
-										</li>
-										<li id="science"> 
-												<a href="#">SCIENCE</a>
-										</li>
-										<li id="entertainment"> 
-												<a href="#">ENTERTAINMENT</a>
-										</li>
-										<li id="car"> 
-												<a href="#">CARS</a>
-										</li>
-										<li id="tl"> 
-												<a href="#">TL;DR</a>
-										</li>
-										<li id="remain"> 
-												<a href="#">FORUMS</a>
-										</li>
-										<li id="remain"> 	
-												<a href="#">SEARCH</a>
-										</li>
-										<li id="remain">
-												<a href="#">MORE SECTIONS</a>
-										</li>
-								</ul>			 
-
-						</nav>
-
-						<div class="logo">
-								<a href="/">
-									<img src="images/verge.png" alt="Verge">
-								</a>
+					</div>
+				</nav>
+				<div class="logo">
+					<a href="/">
+						<img src="images/verge.png" alt="Verge">
+					</a>
+				</div>
+				<div class="n-article" onclick="openarticles()">
+					<a href="#" class="new-articles">
+						<strong>13</strong>
+							<em>NEW ARTICLES</em>
+					</a>
+				</div>	
+				<div class="right-hidden-articles" id="right-hidden-articles" onclick="closearticles()"></div>
+			</header>
+			<main>
+				<div class="data-analysis">
+					<div class="data-analysis-content" id="firstcontent">
+						<a href="#">				
+							<div class="da-field">
+								<h2>Live: Watch Delta IV rocket launch a pair of satellites to spy on objects in space</h2>
+								<p class="author-name">
+									By Loren Grush
+									<span class="comment-count" id="first-content-comment">2</span>
+								</p>
+							</div>
+						</a>
+					</div>
+					<div class="data-analysis-content" id="secondcontent">
+						<a href="#">
+							<div class="da-field">
+									<h2>Twitter now lets any user filter out threats and abuse</h2>
+									<p class="author-name">
+										By Nick Statt
+										<span class="comment-count" id="second-content-comment">23</span>
+									</p>
+							</div>
+						</a>	
+					</div>
+					<div class="data-analysis-content" id="thirdcontent">
+						<a href="#">
+							<div class="da-field">
+								<h2>17-inch gaming laptops are one big compromise</h2>
+								<p class="author-name">
+									By Jordan Golson
+									<span class="comment-count" id="third-content-comment">111</span>
+								</p>
+							</div>
+						</a>	
+					</div>
+					<div class="data-analysis-scroller" id="scroller">
+						<div class="data-analysis-content" id="fourthcontent">
+							<a href="#">
+								<div class="da-field">
+									<h2></h2>
+									<p>
+										<span></span>
+									</p>
+								</div>
+									
+							</a>
 						</div>
+						<div class="data-analysis-content" id="fifthcontent"></div>
+						<div class="data-analysis-content"></div>
+						<div class="data-analysis-content"></div>		
+					</div>
 
-						<div class="n-article">
-								<a href="#" class="new-articles">
-										<strong>13</strong>
-										<em>NEW ARTICLES</em>
-								</a>
-						</div>	
-				</header>
-
-
-				<main>
-						
-						<div class="data-analysis">
-
-									<div class="data-analysis-content" id="firstcontent">
-										
-
-											<a href="#">
-												
-													<div class="da-field">
-														<h2>The Shadow Brokers hack is starting to look like Russia vs. NSA</h2>
-													</div>
-											</a>
-									</div>
-
-									<div class="data-analysis-content" id="secondcontent">
-										
-									</div>
-
-									<div class="data-analysis-content" id="thirdcontent">
-										
-									</div>
-
-						</div>
-
-
-						<div class="artile-display"></div>
-						<div class=data-analysis></div>
-						<div class="artile-display"></div>
-						<div class="artile-display"></div>
-						<div class=data-analysis></div>
-						<div class="artile-display"></div>
-						<div class="artile-display"></div>
-						<div class="artile-display"></div>
-						
+				</div>
+						<div class="artile-display section1"></div>
+						<div class=data-analysis-scroller></div>
+						<div class="artile-display section2"></div>
+						<div class="artile-display section3"></div>
+						<div class=data-analysis-scroller></div>
+						<div class="artile-display section4"></div>
+						<div class="artile-display section5"></div>
+						<div class="artile-display section6"></div>
 						<a href="#"></a>
-				</main>
-
+			</main>
 				<a href="#"></a>
-
-				
 				<footer>
 							<div class="search"></div>
 							<div class="col first"></div>
@@ -135,7 +194,6 @@
 							<div class="social-media-links"></div>
 							<div class="vox-media"></div>
 				</footer>
-				
 		</div>
 </body>
 </html>
