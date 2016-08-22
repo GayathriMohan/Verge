@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -7,135 +6,1393 @@
 	<link rel="stylesheet" type="text/css" href="css/verge.css">
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
 	<script type="text/javascript" src="js/verge.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
 </head>
 <body onclick="closenav()">
-		<div class="full-container">
+	<div class="full-container">
+		<header class="pageheader">
+			<div class="navigation-container">
+				<a href="#" >
+					<img src="images/menu.png" alt="menu" onclick="opennav()"> 
 
-				<header class="pageheader">
-
-						<div class="navigation-container">
-								<a href="#" >
-									<img src="images/menu.png" alt="menu" onclick="opennav()"> 
-
-								</a>
+				</a>
+			</div>
+				<nav class="nav-menu" id="nav-menu">
+					<ul>
+						<li class="user">
+							<a href="#">
+								<img src="https://cdn0.vox-cdn.com/images/verge/default-avatar.v9899025.gif" alt="signup">
+    								<div>Log in | Sign up</div>
+							</a>
+						</li>
+						<li id="remain"> 
+							<a href="#">HOME</a>
+						</li>
+						<li id="remain">
+							<a href="#">LONGFORM</a>
+						</li>
+						<li id="remain"> 
+							<a href="#">REVIEWS</a>
+						</li>
+						<li id="remain"> 
+							<a href="#">VIDEO</a>
+						</li>
+						<li id="tech"> 
+							<a href="#">TECH</a>
+						</li>
+						<li id="circuit"> 
+							<a href="#">CIRCUIT BREAKER</a>
+						</li>
+						<li id="science"> 
+							<a href="#">SCIENCE</a>
+						</li>
+						<li id="entertainment"> 
+							<a href="#">ENTERTAINMENT</a>
+						</li>
+						<li id="car"> 
+							<a href="#">CARS</a>
+						</li>
+						<li id="tl"> 
+							<a href="#">TL;DR</a>
+						</li>
+						<li id="remain"> 
+							<a href="#">FORUMS</a>
+						</li>
+						<li id="remain"> 	
+							<a href="#">SEARCH</a>
+						</li>
+						<li id="remain">
+							<a href="#">MORE SECTIONS</a>
+						</li>
+					</ul>			 
+				</nav>
+				<div class="nav-hidden-menu" id="nav-hidden-menu" onclick="closeNav()"></div>
+				<nav class="right-articles" id="right-articles">
+					<div class="new-articles-side-bar">
+						<div class="six-articles first">
+								<h3>August 19, 2016</h3>
+								<ul class="sublist-six-articles">
+									<li class="articles-display">
+										<span>11.24pm</span>
+										<a href="#">
+           									Frank Ocean plays new songs on mysterious live stream
+          								</a>
+          								
+									</li>
+									<li class="articles-display">
+										<span>4.20am</span>
+										<a href="#">								
+            								The Vision Mercedes-Maybach 6 coupe concept is a retro-futuristic stunner
+          								</a>
+									</li>
+									<li class="articles-display">
+										<span>11.24pm</span>
+										<a href="#">
+           									 Frank Ocean plays new songs on mysterious live stream
+          								</a>
+									</li>
+									<li class="articles-display">
+										<span>11.24pm</span>
+										<a href="#">
+           									 Frank Ocean plays new songs on mysterious live stream
+          								</a>
+									</li>
+									<li class="articles-display">
+										<span>11.24pm</span>
+										<a href="#">
+           									 Frank Ocean plays new songs on mysterious live stream
+          								</a>
+									</li>
+								</ul>
 						</div>
-
-						<nav class="nav-menu" id="nav-menu">
-								<ul>
-										<li class="user">
-												<a href="#">
-														<img src="https://cdn0.vox-cdn.com/images/verge/default-avatar.v9899025.gif" alt="signup">
-
-    														<div>Log in | Sign up</div>
-												</a>
-										</li>
-										<li id="remain"> 
-												<a href="#">HOME</a>
-										</li>
-										<li id="remain">
-												<a href="#">LONGFORM</a>
-										</li>
-										<li id="remain"> 
-												<a href="#">REVIEWS</a>
-										</li>
-										<li id="remain"> 
-												<a href="#">VIDEO</a>
-										</li>
-										<li id="tech"> 
-												<a href="#">TECH</a>
-										</li>
-										<li id="circuit"> 
-												<a href="#">CIRCUIT BREAKER</a>
-										</li>
-										<li id="science"> 
-												<a href="#">SCIENCE</a>
-										</li>
-										<li id="entertainment"> 
-												<a href="#">ENTERTAINMENT</a>
-										</li>
-										<li id="car"> 
-												<a href="#">CARS</a>
-										</li>
-										<li id="tl"> 
-												<a href="#">TL;DR</a>
-										</li>
-										<li id="remain"> 
-												<a href="#">FORUMS</a>
-										</li>
-										<li id="remain"> 	
-												<a href="#">SEARCH</a>
-										</li>
-										<li id="remain">
-												<a href="#">MORE SECTIONS</a>
-										</li>
-								</ul>			 
-
-						</nav>
-
-						<div class="logo">
-								<a href="/">
-									<img src="images/verge.png" alt="Verge">
-								</a>
+					</div>
+				</nav>
+				<div class="logo">
+					<a href="/">
+						<img src="images/verge.png" alt="Verge">
+					</a>
+				</div>
+				<div class="n-article" onclick="openarticles()">
+					<a href="#" class="new-articles">
+						<strong>13</strong>
+							<em>NEW ARTICLES</em>
+					</a>
+				</div>	
+				<div class="right-hidden-articles" id="right-hidden-articles" onclick="closearticles()"></div>
+			</header>
+			<main>
+				<div class="data-analysis">
+					<div class="data-analysis-content" id="firstcontent">
+						<a href="#">				
+							<div class="da-field">
+								<h2>Live: Watch Delta IV rocket launch a pair of satellites to spy on objects in space</h2>
+								<p class="author-name">
+									By Loren Grush
+									<span class="comment-count" id="first-content-comment">2</span>
+								</p>
+							</div>
+						</a>
+					</div>
+					<div class="data-analysis-content" id="secondcontent">
+						<a href="#">
+							<div class="da-field">
+									<h2>Twitter now lets any user filter out threats and abuse</h2>
+									<p class="author-name">
+										By Nick Statt
+										<span class="comment-count" id="second-content-comment">23</span>
+									</p>
+							</div>
+						</a>	
+					</div>
+					<div class="data-analysis-content" id="thirdcontent">
+						<a href="#">
+							<div class="da-field">
+								<h2>17-inch gaming laptops are one big compromise</h2>
+								<p class="author-name">
+									By Jordan Golson
+									<span class="comment-count" id="third-content-comment">111</span>
+								</p>
+							</div>
+						</a>	
+					</div>
+					<div class="data-analysis-scroller" id="scroller">
+						<div class="data-analysis-content" id="fourthcontent">
+							<a href="#">
+								<div class="da-field">
+									<h2>Twitter now lets any user filter out threats and abuse</h2>
+									<p>
+										<span></span>
+									</p>
+								</div>
+									
+							</a>
 						</div>
+						<div class="data-analysis-content" id="fifthcontent">
+							<a href="#">
+								<div class="da-field">
+									<h2>Twitter now lets any user filter out threats and abuse</h2>
+									<p>
+										<span></span>
+									</p>
+								</div>
+									
+							</a>
+						</div>
+						<div class="data-analysis-content" id="sixthcontent">
+							<a href="#">
+								<div class="da-field">
+									<h2>Twitter now lets any user filter out threats and abuse</h2>
+									<p>
+										<span></span>
+									</p>
+								</div>
+									
+							</a>
+						</div>
+						<div class="data-analysis-content" id="seventhcontent">
+							<a href="#">
+								<div class="da-field">
+									<h2>Twitter now lets any user filter out threats and abuse</h2>
+									<p>
+										<span></span>
+									</p>
+								</div>
+									
+							</a>
+						</div>		
+					</div>
 
-						<div class="n-article">
-								<a href="#" class="new-articles">
-										<strong>13</strong>
-										<em>NEW ARTICLES</em>
-								</a>
-						</div>	
-				</header>
-
-
-				<main>
-						
-						<div class="data-analysis">
-
-									<div class="data-analysis-content" id="firstcontent">
-										
-
-											<a href="#">
-												
-													<div class="da-field">
-														<h2>The Shadow Brokers hack is starting to look like Russia vs. NSA</h2>
-													</div>
+				</div>
+						<div class="article-display section1">
+							<div class="section-display-col left">
+								<div class="element" id="first-element">
+									<ul class="top-label">
+										<li>
+											<a href="">TV</a>
+										</li>
+									</ul>
+									<h3>
+										<a href="">You can now unlock your Chromebook with a PIN</a>
+									</h3>
+									<div class="element-metadata">
+										<strong>
+											<a href="">Colin Lecher</a>
+										</strong>
+										<em>08.19.2016</em>
+									</div>
+									<a href="">
+										<div class="element-image" id="elem-img1"></div>
+									</a>
+									<div class="element-explanation">
+										<p>
+											The third season of 
+											<i>Halt and Catch Fire</i>
+											, the 1980s-set drama about the rise of personal computers, has started early. AMC viewers can watch the series premiere right now, after the network sneakily bumped...
+										</p>
+									</div>
+									<p class="bottom-label">
+										<a href="">DONT HALT</a>
+									</p>
+								</div>
+								<div class="element" id="third-element">
+									<ul class="top-label">
+										<li>
+											<a href="">SPACE</a>
+										</li>
+									</ul>
+									<h3>
+										<a href="">The Lamborghini Centenario Roadster has 770 horsepower of open-top ferocity</a>
+									</h3>
+									<div class="element-metadata">
+										<strong>
+											<a href="">Colin Lecher</a>
+										</strong>
+										<em>08.19.2016</em>
+									</div>
+									<a href="">
+										<div class="element-image" id="elem-img2"></div>
+									</a>
+									<div class="element-explanation">
+										<p>
+											The third season of 
+											<i>Halt and Catch Fire</i>
+											, the 1980s-set drama about the rise of personal computers, has started early. AMC viewers can watch the series premiere right now, after the network sneakily bumped...
+										</p>
+									</div>
+									<p>
+										<a href=""></a>
+									</p>
+								</div>
+							</div>
+							<div class="section-display-col center">
+								<div class="element" id="second-element">
+									<ul class="top-label">
+										<li>
+											<a href="">SPACE</a>
+										</li>
+									</ul>
+									<h3>
+										<a href="">Aston Martin made a convertible Vanquish Zagato and of course it's amazing</a>
+									</h3>
+									<div class="element-metadata">
+										<strong>
+											<a href="">Colin Lecher</a>
+										</strong>
+										<em>08.19.2016</em>
+									</div>
+									<a href="">
+										<div class="element-image" id="elem-img3"></div>
+									</a>
+									<div class="element-explanation">
+										<p>
+											The third season of 
+											<i>Halt and Catch Fire</i>
+											, the 1980s-set drama about the rise of personal computers, has started early. AMC viewers can watch the series premiere right now, after the network sneakily bumped...
+										</p>
+									</div>
+									<p>
+										<a href=""></a>
+									</p>
+								</div>
+							</div>
+							<div class="section-display-col right">
+								<div class="element" id="fourth-element">
+									<div></div>
+									<h3>
+										<a href="">Facebook's latest youth play is a teens-only social network</a>
+									</h3>
+									<div class="element-metadata">
+										<strong>
+											<a href="">Colin Lecher</a>
+										</strong>
+										<em>08.19.2016</em>
+									</div>
+									<a href="">
+										<div class="element-image" id="elem-img4"></div>
+									</a>
+									<div class="element-explanation">
+										<p>
+											The third season of 
+											<i>Halt and Catch Fire</i>
+											, the 1980s-set drama about the rise of personal computers, has started early. AMC viewers can watch the series premiere right now, after the network sneakily bumped...
+										</p>
+									</div>
+									<p>
+										<a href=""></a>
+									</p>
+								</div>
+							</div>
+							<ul class="section-article-display firstul">
+								<li>
+									<div class="section-image">
+										<a href="">
+											<div class="side-image" id="chromebook-image"></div>
+										</a>
+									</div>
+									<div class="section-content">
+										<h3>
+											<a href="">
+												You can now unlock your Chromebook with a PIN
 											</a>
+										</h3>
+										<div class="section-metadata">
+											<strong>
+												<a href="">Colin Lecher</a>
+											</strong>
+											<em>08.19.2016</em>
+										</div>
 									</div>
-
-									<div class="data-analysis-content" id="secondcontent">
-										
+								</li>
+								<li>
+									<div class="section-image">
+										<a href="">
+											<div class="side-image" id="lamborgini-image"></div>
+										</a>
 									</div>
-
-									<div class="data-analysis-content" id="thirdcontent">
-										
+									<div class="section-content">
+										<h3>
+											<a href="">
+												The Lamborghini Centenario Roadster has 770 horsepower of open-top ferocity
+											</a>
+										</h3>
+										<div class="section-metadata">
+											<strong>
+												<a href="">Colin Lecher</a>
+											</strong>
+											<em>08.19.2016</em>
+										</div>
 									</div>
-
+								</li>
+								<li>
+									<div class="section-image">
+										<a href="">
+											<div class="side-image" id="convertible-image"></div>
+										</a>
+									</div>
+									<div class="section-content">
+										<h3>
+											<a href="">
+												Aston Martin made a convertible Vanquish Zagato and of course it's amazing
+											</a>
+										</h3>
+										<div class="section-metadata">
+											<strong>
+												<a href="">Colin Lecher</a>
+											</strong>
+											<em>08.19.2016</em>
+										</div>
+									</div>
+								</li>
+								<li>
+									<div class="section-image">
+										<a href="">
+											<div class="side-image" id="phone-image"></div>
+										</a>
+									</div>
+									<div class="section-content">
+										<h3>
+											<a href="">
+												Facebook's latest youth play is a teens-only social network
+											</a>
+										</h3>
+										<div class="section-metadata">
+											<strong>
+												<a href="">Colin Lecher</a>
+											</strong>
+											<em>08.19.2016</em>
+										</div>
+									</div>
+								</li>
+							</ul>
 						</div>
-
-
-						<div class="artile-display"></div>
-						<div class=data-analysis></div>
-						<div class="artile-display"></div>
-						<div class="artile-display"></div>
-						<div class=data-analysis></div>
-						<div class="artile-display"></div>
-						<div class="artile-display"></div>
-						<div class="artile-display"></div>
-						
-						<a href="#"></a>
-				</main>
-
-				<a href="#"></a>
-
-				
-				<footer>
-							<div class="search"></div>
-							<div class="col first"></div>
-							<div class="col second"></div>
-							<div class="social-media-links"></div>
-							<div class="vox-media"></div>
+						<div class="data-analysis-scroller" id="scroller2">
+							<div class="data-analysis-content" id="eightcontent">
+								<a href="#">
+									<div class="da-field">
+										<h2>Twitter now lets any user filter out threats and abuse</h2>
+										<p>
+											<span></span>
+										</p>
+									</div>	
+								</a>
+							</div>
+							<div class="data-analysis-content" id="ninthcontent">
+								<a href="#">
+									<div class="da-field">
+										<h2>Twitter now lets any user filter out threats and abuse</h2>
+										<p>
+											<span></span>
+										</p>
+									</div>	
+								</a>
+							</div>
+						</div>
+						<div class="article-display section2">
+							<div class="section-display-col left">
+								<div class="element" id="fifth-element">
+									<ul class="top-label">
+										<li>
+											<a href="">TV</a>
+										</li>
+									</ul>
+									<h3>
+										<a href="">Microsoft broke millions of webcams with the Windows 10 Anniversary Update</a>
+									</h3>
+									<div class="element-metadata">
+										<strong>
+											<a href="">Colin Lecher</a>
+										</strong>
+										<em>08.19.2016</em>
+									</div>
+									<a href="">
+										<div class="element-image" id="elem-img5"></div>
+									</a>
+									<div class="element-explanation">
+										<p>
+											The third season of 
+											<i>Halt and Catch Fire</i>
+											, the 1980s-set drama about the rise of personal computers, has started early. AMC viewers can watch the series premiere right now, after the network sneakily bumped...
+										</p>
+									</div>
+									<p class="bottom-label">
+										<a href="">DONT HALT</a>
+									</p>
+								</div>
+								<div class="element" id="sixth-element">
+									<ul class="top-label">
+										<li>
+											<a href="">SPACE</a>
+										</li>
+									</ul>
+									<h3>
+										<a href="">NASA's new online archive is a treasure trove of free research articles</a>
+									</h3>
+									<div class="element-metadata">
+										<strong>
+											<a href="">Colin Lecher</a>
+										</strong>
+										<em>08.19.2016</em>
+									</div>
+									<a href="">
+										<div class="element-image" id="elem-img6"></div>
+									</a>
+									<div class="element-explanation">
+										<p>
+											The third season of 
+											<i>Halt and Catch Fire</i>
+											, the 1980s-set drama about the rise of personal computers, has started early. AMC viewers can watch the series premiere right now, after the network sneakily bumped...
+										</p>
+									</div>
+									<p>
+										<a href=""></a>
+									</p>
+								</div>
+							</div>
+							<div class="section-display-col center">
+								<div class="element" id="seventh-element">
+									<ul class="top-label">
+										<li>
+											<a href="">SPACE</a>
+										</li>
+									</ul>
+									<h3>
+										<a href="">Lyft tried to sell itself to Apple, Google, Uber, and GM</a>
+									</h3>
+									<div class="element-metadata">
+										<strong>
+											<a href="">Colin Lecher</a>
+										</strong>
+										<em>08.19.2016</em>
+									</div>
+									<a href="">
+										<div class="element-image" id="elem-img7"></div>
+									</a>
+									<div class="element-explanation">
+										<p>
+											The third season of 
+											<i>Halt and Catch Fire</i>
+											, the 1980s-set drama about the rise of personal computers, has started early. AMC viewers can watch the series premiere right now, after the network sneakily bumped...
+										</p>
+									</div>
+									<p>
+										<a href=""></a>
+									</p>
+								</div>
+								<div class="element" id="eight-element">
+									<ul class="top-label">
+										<li>
+											<a href="">SPACE</a>
+										</li>
+									</ul>
+									<h3>
+										<a href="">STM's Trestle backpack is brilliantly ugly</a>
+									</h3>
+									<div class="element-metadata">
+										<strong>
+											<a href="">Colin Lecher</a>
+										</strong>
+										<em>08.19.2016</em>
+									</div>
+									<a href="">
+										<div class="element-image" id="elem-img8"></div>
+									</a>
+									<div class="element-explanation">
+										<p>
+											The third season of 
+											<i>Halt and Catch Fire</i>
+											, the 1980s-set drama about the rise of personal computers, has started early. AMC viewers can watch the series premiere right now, after the network sneakily bumped...
+										</p>
+									</div>
+									<p>
+										<a href=""></a>
+									</p>
+								</div>
+							</div>
+							<div class="section-display-col right">
+								<div class="element" id="extra-element">
+									<div></div>
+									<h3>
+										<a href="">Facebook's latest youth play is a teens-only social network</a>
+									</h3>
+									<div class="element-metadata">
+										<strong>
+											<a href="">Colin Lecher</a>
+										</strong>
+										<em>08.19.2016</em>
+									</div>
+									<a href="">
+										<div class="element-image" id="elem-img4"></div>
+									</a>
+									<div class="element-explanation">
+										<p>
+											The third season of 
+											<i>Halt and Catch Fire</i>
+											, the 1980s-set drama about the rise of personal computers, has started early. AMC viewers can watch the series premiere right now, after the network sneakily bumped...
+										</p>
+									</div>
+									<p>
+										<a href=""></a>
+									</p>
+								</div>
+								<div class="element" id="ninth-element">
+									<div></div>
+									<h3>
+										<a href="">This is your next jam: saying goodbye</a>
+									</h3>
+									<div class="element-metadata">
+										<strong>
+											<a href="">Colin Lecher</a>
+										</strong>
+										<em>08.19.2016</em>
+									</div>
+									<a href="">
+										<div class="element-image" id="elem-img9"></div>
+									</a>
+									<div class="element-explanation">
+										<p>
+											The third season of 
+											<i>Halt and Catch Fire</i>
+											, the 1980s-set drama about the rise of personal computers, has started early. AMC viewers can watch the series premiere right now, after the network sneakily bumped...
+										</p>
+									</div>
+									<p>
+										<a href=""></a>
+									</p>
+								</div>
+							</div>
+							<!-- Section2 mobile list -->
+							<ul class="section-article-display firstul">
+								<li>
+									<div class="section-image">
+										<a href="">
+											<div class="side-image" id="microsoft-image"></div>
+										</a>
+									</div>
+									<div class="section-content">
+										<h3>
+											<a href="">
+												Microsoft broke millions of webcams with the Windows 10 Anniversary Update
+											</a>
+										</h3>
+										<div class="section-metadata">
+											<strong>
+												<a href="">Colin Lecher</a>
+											</strong>
+											<em>08.19.2016</em>
+										</div>
+									</div>
+								</li>
+								<li>
+									<div class="section-image">
+										<a href="">
+											<div class="side-image" id="nasa-image"></div>
+										</a>
+									</div>
+									<div class="section-content">
+										<h3>
+											<a href="">
+												NASA's new online archive is a treasure trove of free research articles
+											</a>
+										</h3>
+										<div class="section-metadata">
+											<strong>
+												<a href="">Colin Lecher</a>
+											</strong>
+											<em>08.19.2016</em>
+										</div>
+									</div>
+								</li>
+								<li>
+									<div class="section-image">
+										<a href="">
+											<div class="side-image" id="lyst-image"></div>
+										</a>
+									</div>
+									<div class="section-content">
+										<h3>
+											<a href="">
+												Lyft tried to sell itself to Apple, Google, Uber, and GM
+											</a>
+										</h3>
+										<div class="section-metadata">
+											<strong>
+												<a href="">Colin Lecher</a>
+											</strong>
+											<em>08.19.2016</em>
+										</div>
+									</div>
+								</li>
+								<li>
+									<div class="section-image">
+										<a href="">
+											<div class="side-image" id="bagpack-image"></div>
+										</a>
+									</div>
+									<div class="section-content">
+										<h3>
+											<a href="">
+												STM's Trestle backpack is brilliantly ugly
+											</a>
+										</h3>
+										<div class="section-metadata">
+											<strong>
+												<a href="">Colin Lecher</a>
+											</strong>
+											<em>08.19.2016</em>
+										</div>
+									</div>
+								</li>
+								<li>
+									<div class="section-image">
+										<a href="">
+											<div class="side-image" id="jam-image"></div>
+										</a>
+									</div>
+									<div class="section-content">
+										<h3>
+											<a href="">
+												This is your next jam: saying goodbye
+											</a>
+										</h3>
+										<div class="section-metadata">
+											<strong>
+												<a href="">Colin Lecher</a>
+											</strong>
+											<em>08.19.2016</em>
+										</div>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<div class="article-display section3">
+							<ul class="section-article-display">
+								<li>
+									<div class="section-image">
+										<a href="">
+											<div class="side-image" id="image-1"></div>
+										</a>
+									</div>
+									<div class="section-content">
+										<h3>
+											<a href="">
+												The Lost Boys anthology TV show in the works from the creator of Veronica Mars
+											</a>
+										</h3>
+										<div class="section-metadata">
+											<strong>
+												<a href="">Colin Lecher</a>
+											</strong>
+											<em>08.19.2016</em>
+										</div>
+									</div>
+								</li>
+								<li>
+									<div class="section-image">
+										<a href="">
+											<div class="side-image" id="image-2"></div>
+										</a>
+									</div>
+									<div class="section-content">
+										<h3>
+											<a href="">
+												Verge ESP: The crucial role of moms in the Ryan Lochte scandal AND in one's microbial communities
+											</a>
+										</h3>
+										<div class="section-metadata">
+											<strong>
+												<a href="">Colin Lecher</a>
+											</strong>
+											<em>08.19.2016</em>
+										</div>
+									</div>
+								</li>
+								<li>
+									<div class="section-image">
+										<a href="">
+											<div class="side-image" id="image-3"></div>
+										</a>
+									</div>
+									<div class="section-content">
+										<h3>
+											<a href="">
+												Apple and Google join 'strike force' to crack down on robocalls
+											</a>
+										</h3>
+										<div class="section-metadata">
+											<strong>
+												<a href="">Colin Lecher</a>
+											</strong>
+											<em>08.19.2016</em>
+										</div>
+									</div>
+								</li>
+								<li>
+									<div class="section-image">
+										<a href="">
+											<div class="side-image" id="image-4"></div>
+										</a>
+									</div>
+									<div class="section-content">
+										<h3>
+											<a href="">
+												Paleontologists find huge T. Rex skull in Montana
+											</a>
+										</h3>
+										<div class="section-metadata">
+											<strong>
+												<a href="">Colin Lecher</a>
+											</strong>
+											<em>08.19.2016</em>
+										</div>
+									</div>
+								</li>
+								<li>
+									<div class="section-image">
+										<a href="">
+											<div class="side-image" id="image-5"></div>
+										</a>
+									</div>
+									<div class="section-content">
+										<h3>
+											<a href="">
+												Frank Ocean's visual album Endless is an exercise in enjoying the wait
+											</a>
+										</h3>
+										<div class="section-metadata">
+											<strong>
+												<a href="">Colin Lecher</a>
+											</strong>
+											<em>08.19.2016</em>
+										</div>
+									</div>
+								</li>
+								<li>
+									<div class="section-image">
+										<a href="">
+											<div class="side-image" id="image-6"></div>
+										</a>
+									</div>
+									<div class="section-content">
+										<h3>
+											<a href="">
+												We're here to help you understand these new data plans
+											</a>
+										</h3>
+										<div class="section-metadata">
+											<strong>
+												<a href="">Colin Lecher</a>
+											</strong>
+											<em>08.19.2016</em>
+										</div>
+									</div>
+								</li>
+								<li>
+									<div class="section-image">
+										<a href="">
+											<div class="side-image" id="image-7"></div>
+										</a>
+									</div>
+									<div class="section-content">
+										<h3>
+											<a href="">
+												GoPro's Hero 5 might let you tag awesome moments by saying 'that was sick' out loud
+											</a>
+										</h3>
+										<div class="section-metadata">
+											<strong>
+												<a href="">Colin Lecher</a>
+											</strong>
+											<em>08.19.2016</em>
+										</div>
+									</div>
+								</li>
+								<li>
+									<div class="section-image">
+										<a href="">
+											<div class="side-image" id="image-8"></div>
+										</a>
+									</div>
+									<div class="section-content">
+										<h3>
+											<a href="">
+												Humpback whale nearly pulls a Free Willy onto a pack of kayakers
+											</a>
+										</h3>
+										<div class="section-metadata">
+											<strong>
+												<a href="">Colin Lecher</a>
+											</strong>
+											<em>08.19.2016</em>
+										</div>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<div class="data-analysis-scroller" id="scroller3">
+							<div class="data-analysis-content" id="content-10">
+								<a href="#">
+									<div class="da-field">
+										<h2>Twitter now lets any user filter out threats and abuse</h2>
+										<p>
+											<span></span>
+										</p>
+									</div>	
+								</a>
+							</div>
+							<div class="data-analysis-content" id="content-11">
+								<a href="#">
+									<div class="da-field">
+										<h2>Twitter now lets any user filter out threats and abuse</h2>
+										<p>
+											<span></span>
+										</p>
+									</div>	
+								</a>
+							</div>
+							<div class="data-analysis-content" id="content-12">
+								<a href="#">
+									<div class="da-field">
+										<h2>Twitter now lets any user filter out threats and abuse</h2>
+										<p>
+											<span></span>
+										</p>
+									</div>	
+								</a>
+							</div>
+							<div class="data-analysis-content" id="content-13">
+								<a href="#">
+									<div class="da-field">
+										<h2>Twitter now lets any user filter out threats and abuse</h2>
+										<p>
+											<span></span>
+										</p>
+									</div>	
+								</a>
+							</div>
+							<div class="data-analysis-content" id="content-14">
+								<a href="#">
+									<div class="da-field">
+										<h2>Twitter now lets any user filter out threats and abuse</h2>
+										<p>
+											<span></span>
+										</p>
+									</div>	
+								</a>
+							</div>
+						</div>
+						<div class="article-display section4">
+							<ul class="section-article-display">
+								<li>
+									<div class="section-image">
+										<a href="">
+											<div class="side-image" id="image-9"></div>
+										</a>
+									</div>
+									<div class="section-content">
+										<h3>
+											<a href="">
+												No wonder Microsoft's Xbox One S console is so beautiful, look who designed it
+											</a>
+										</h3>
+										<div class="section-metadata">
+											<strong>
+												<a href="">Colin Lecher</a>
+											</strong>
+											<em>08.19.2016</em>
+										</div>
+									</div>
+								</li>
+								<li>
+									<div class="section-image">
+										<a href="">
+											<div class="side-image" id="image-10"></div>
+										</a>
+									</div>
+									<div class="section-content">
+										<h3>
+											<a href="">
+												Uber doesn't think Lyft is worth more than $2 billion
+											</a>
+										</h3>
+										<div class="section-metadata">
+											<strong>
+												<a href="">Colin Lecher</a>
+											</strong>
+											<em>08.19.2016</em>
+										</div>
+									</div>
+								</li>
+								<li>
+									<div class="section-image">
+										<a href="">
+											<div class="side-image" id="image-11"></div>
+										</a>
+									</div>
+									<div class="section-content">
+										<h3>
+											<a href="">
+												Former Navy SEAL will pay $6.6 million to settle with authorities over Bin Laden Raid book
+											</a>
+										</h3>
+										<div class="section-metadata">
+											<strong>
+												<a href="">Colin Lecher</a>
+											</strong>
+											<em>08.19.2016</em>
+										</div>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<div class="article-display section5">
+							<ul class="section-article-display">
+								<li>
+									<div class="section-image">
+										<a href="">
+											<div class="side-image" id="image-12"></div>
+										</a>
+									</div>
+									<div class="section-content">
+										<h3>
+											<a href="">
+												Samsung is shutting down Milk Music in September
+											</a>
+										</h3>
+										<div class="section-metadata">
+											<strong>
+												<a href="">Colin Lecher</a>
+											</strong>
+											<em>08.19.2016</em>
+										</div>
+									</div>
+								</li>
+								<li>
+									<div class="section-image">
+										<a href="">
+											<div class="side-image" id="image-13"></div>
+										</a>
+									</div>
+									<div class="section-content">
+										<h3>
+											<a href="">
+												The best universal remote you can buy
+											</a>
+										</h3>
+										<div class="section-metadata">
+											<strong>
+												<a href="">Colin Lecher</a>
+											</strong>
+											<em>08.19.2016</em>
+										</div>
+									</div>
+								</li>
+								<li>
+									<div class="section-image">
+										<a href="">
+											<div class="side-image" id="image-14"></div>
+										</a>
+									</div>
+									<div class="section-content">
+										<h3>
+											<a href="">
+												Frank Ocean just dropped a powerful new music video, Nikes
+											</a>
+										</h3>
+										<div class="section-metadata">
+											<strong>
+												<a href="">Colin Lecher</a>
+											</strong>
+											<em>08.19.2016</em>
+										</div>
+									</div>
+								</li>
+								<li>
+									<div class="section-image">
+										<a href="">
+											<div class="side-image" id="image-15"></div>
+										</a>
+									</div>
+									<div class="section-content">
+										<h3>
+											<a href="">
+												Leaked Hero 5 manual details GoPro's upcoming cloud service
+											</a>
+										</h3>
+										<div class="section-metadata">
+											<strong>
+												<a href="">Colin Lecher</a>
+											</strong>
+											<em>08.19.2016</em>
+										</div>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<div class="article-display section6">
+							<ul class="section-article-display">
+								<li>
+									<div class="section-image">
+										<a href="">
+											<div class="side-image" id="image-16"></div>
+										</a>
+									</div>
+									<div class="section-content">
+										<h3>
+											<a href="">
+												HP's VR gaming backpack is light, thin, and still a prototype
+											</a>
+										</h3>
+										<div class="section-metadata">
+											<strong>
+												<a href="">Colin Lecher</a>
+											</strong>
+											<em>08.19.2016</em>
+										</div>
+									</div>
+								</li>
+								<li>
+									<div class="section-image">
+										<a href="">
+											<div class="side-image" id="image-17"></div>
+										</a>
+									</div>
+									<div class="section-content">
+										<h3>
+											<a href="">
+												Make your own Bradley Cooper portrait at the Taiwanese theater that hand-paints every poster
+											</a>
+										</h3>
+										<div class="section-metadata">
+											<strong>
+												<a href="">Colin Lecher</a>
+											</strong>
+											<em>08.19.2016</em>
+										</div>
+									</div>
+								</li>
+								<li>
+									<div class="section-image">
+										<a href="">
+											<div class="side-image" id="image-18"></div>
+										</a>
+									</div>
+									<div class="section-content">
+										<h3>
+											<a href="">
+												The Apple Store is now just called Apple
+											</a>
+										</h3>
+										<div class="section-metadata">
+											<strong>
+												<a href="">Colin Lecher</a>
+											</strong>
+											<em>08.19.2016</em>
+										</div>
+									</div>
+								</li>
+								<li></li>
+								<li>
+									<div class="section-image">
+										<a href="">
+											<div class="side-image" id="image-19"></div>
+										</a>
+									</div>
+									<div class="section-content">
+										<h3>
+											<a href="">
+												Pandora could launch its Spotify rival next month
+											</a>
+										</h3>
+										<div class="section-metadata">
+											<strong>
+												<a href="">Colin Lecher</a>
+											</strong>
+											<em>08.19.2016</em>
+										</div>
+									</div>
+								</li>
+								<li>
+									<div class="section-image">
+										<a href="">
+											<div class="side-image" id="image-20"></div>
+										</a>
+									</div>
+									<div class="section-content">
+										<h3>
+											<a href="">
+												GoPro Hero 5 appears in leaked images
+											</a>
+										</h3>
+										<div class="section-metadata">
+											<strong>
+												<a href="">Colin Lecher</a>
+											</strong>
+											<em>08.19.2016</em>
+										</div>
+									</div>
+								</li>
+								<li>
+									<div class="section-image">
+										<a href="">
+											<div class="side-image" id="image-21"></div>
+										</a>
+									</div>
+									<div class="section-content">
+										<h3>
+											<a href="">
+												Chicago's predictive policing tool just failed a major test
+											</a>
+										</h3>
+										<div class="section-metadata">
+											<strong>
+												<a href="">Colin Lecher</a>
+											</strong>
+											<em>08.19.2016</em>
+										</div>
+									</div>
+								</li>
+								<li>
+									<div class="section-image">
+										<a href="">
+											<div class="side-image" id="image-22"></div>
+										</a>
+									</div>
+									<div class="section-content">
+										<h3>
+											<a href="">
+												After Shadow Brokers, should the NSA still be hoarding vulnerabilities?
+											</a>
+										</h3>
+										<div class="section-metadata">
+											<strong>
+												<a href="">Colin Lecher</a>
+											</strong>
+											<em>08.19.2016</em>
+										</div>
+									</div>
+								</li>
+								<li>
+									<div class="section-image">
+										<a href="">
+											<div class="side-image" id="image-23"></div>
+										</a>
+									</div>
+									<div class="section-content">
+										<h3>
+											<a href="">
+												New Snowden documents confirm leaked NSA tools are real
+											</a>
+										</h3>
+										<div class="section-metadata">
+											<strong>
+												<a href="">Colin Lecher</a>
+											</strong>
+											<em>08.19.2016</em>
+										</div>
+									</div>
+								</li>
+								<li>
+									<div class="section-image">
+										<a href="">
+											<div class="side-image" id="image-24"></div>
+										</a>
+									</div>
+									<div class="section-content">
+										<h3>
+											<a href="">
+												Google will end support for Chrome apps on Windows, Mac, and Linux
+											</a>
+										</h3>
+										<div class="section-metadata">
+											<strong>
+												<a href="">Colin Lecher</a>
+											</strong>
+											<em>08.19.2016</em>
+										</div>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<a class="see-all-news" href="#">See All News</a>
+			</main>
+				<a href="#top" class="back-to-top">BACK TO TOP ^</a>
+				<footer class="clearfix">
+							<div class="search">
+								<a href="" class="logo-appears">
+									<img src="https://cdn2.vox-cdn.com/uploads/chorus_asset/file/3868564/verge-logo-01.0.png" alt="logo">
+								</a>
+								<form class="form-search">
+									<input type="text" placeholder="Search articles & products">
+								</form>
+							</div>
+							<div class="col first-footer-col">
+								<div class="footer-header-section">
+									THE
+									<em>SECTIONS</em>
+								</div>
+								<ul>
+									<li>
+										<a href="">Longform</a>
+									</li>
+									<li>
+										<a href="">Video</a>
+									</li>
+									<li>
+										<a href="">Reviews</a>
+									</li>
+									<li>
+										<a href="">Tech</a>
+									</li>
+									<li>
+										<a href="">Science</a>
+									</li>
+									<li>
+										<a href="">Culture</a>
+									</li>
+									<li>
+										<a href="">Cars</a>
+									</li>
+									<li>
+										<a href="">Design</a>
+									</li>
+									<li>
+										<a href="">Business</a>
+									</li>
+									<li>
+										<a href="">US & World</a>
+									</li>
+								</ul>
+							</div>
+							<div class="col second-footer-col">
+								<div class="footer-header-section">
+									THE
+									<em>BASICS</em>
+								</div>
+								<ul>
+									<li>
+										<a href="">Site Status</a>
+									</li>
+									<li>
+										<a href="">About</a>
+									</li>
+									<li>
+										<a href="">Contact</a>
+									</li>
+									<li>
+										<a href="">Tip Us</a>
+									</li>
+									<li>
+										<a href="">Forums</a>
+									</li>
+									<li>
+										<a href="">Jobs</a>
+									</li>
+								</ul>
+							</div>
+							<div class="social-media-links">
+								<div class="footer-header-section">
+									THE
+									<em>ELSEWHERE</em>
+								</div>
+								<ul>
+									<li>
+										<a href="" class="social-media facebook">
+											<span>Facebook</span>
+										</a>
+									</li>
+									<li>
+										<a href="" class="social-media twitter">
+											<span>Twitter</span>
+										</a>
+									</li>
+									<li>
+										<a href="" class="social-media tumblr">
+											<span>Tumblr</span>
+										</a>
+									</li>
+									<li>
+										<a href="" class="social-media youtube">
+											<span>Youtube</span>
+										</a>
+									</li>
+									<li>
+										<a href="" class="social-media instagram">
+											<span>Instagram</span>
+										</a>
+									</li>
+									<li>
+										<a href="" class="social-media subscribe">
+											<span>Subscribe</span>
+										</a>
+									</li>
+								</ul>
+							</div>
+							<div class="footer-terms">
+								<a href="">Ethics Statement</a>
+								-
+								<a href="">Community Guidelines</a>
+								<br>
+								<a href="">Terms of Use</a>
+								-
+								<a href="">Privacy Policy</a>
+								<br>
+								<span>
+								All systems operational
+								<br>
+								<a href="">Check out our status page for more details.</a>
+								</span>
+							</div>
+							<div class="vox-media">
+								<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Vox_Media_logo.svg/2000px-Vox_Media_logo.svg.png" alt="voxmedia">
+								<p>
+									@2016 
+									<a href="">Vox Media</a>
+									, Inc. All rights reserved.
+								</p>
+							</div>
 				</footer>
-				
 		</div>
 </body>
 </html>
