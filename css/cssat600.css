@@ -1,0 +1,325 @@
+/*@media only screen and (min-width: 600px)
+{*/
+    .firstul
+    {
+        display: none;
+    }
+    .article-display
+    {
+        position: relative;
+    }
+    .section-display-col
+    {
+        display: inline-block;
+        //float: left;
+        width: 50%;
+    }
+    .center
+    {
+        position: absolute;
+    }
+    .element
+    {
+        display: block;
+        padding: 1rem;
+    }
+    .top-label li
+    {
+        display: inline-block;
+    }
+    .top-label li a 
+    {
+        display: block;
+        background-color: #fa4b2a;
+        color: #FFF;
+        padding: 2%;
+        width: 100%;
+    }
+    .element h3
+    {
+        font-size: 1.8rem;
+        line-height: 1.2;
+    }
+    .element h3 a
+    {
+        color: black;
+        font-family: 'Arial';
+    }
+    .element-metadata
+    {
+        padding: 5% 0 5% 0;
+    }
+    .element-metadata a
+    {
+        color: black;
+        font-weight: bold;
+    }
+    .element-metadata em
+    {
+        border-left: 1px solid black;
+        padding-left: 2%;
+    }
+    .element-image
+    {
+        height: 200px;
+        box-shadow: inset 0 0 50px rgba(0,0,0,0.5);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        margin-bottom: 5%;
+    }
+    #elem-img1
+    {
+        background-image: url("https://cdn3.vox-cdn.com/thumbor/ZFvJVQReybEVC2oaKIIj-nySvec=/339x0:1701x1362/250x250/cdn0.vox-cdn.com/uploads/chorus_image/image/50461057/toshiba-chromebook-review1_2040.0.jpg");
+    }
+    #elem-img2
+    {
+        background-image: url("https://cdn1.vox-cdn.com/thumbor/FH3vK4C4Og6TGavXfckHOUNy-kw=/1771x0:5314x3543/250x250/cdn0.vox-cdn.com/uploads/chorus_image/image/50458741/446158.0.0.jpg");
+    }
+    #elem-img3
+    {
+        background-image: url("https://cdn0.vox-cdn.com/thumbor/YaV5QIsbjICqn3kyT_2TPX54fRc=/1159x0:4158x2999/250x250/cdn0.vox-cdn.com/uploads/chorus_image/image/50458605/Vanquish_Zagato_Volante__2_.0.0.jpg");
+    }
+    #elem-img4
+    {
+        background-image: url("https://cdn2.vox-cdn.com/thumbor/iK-y_kGojEanJ0SKl7EHiQ8DLuQ=/71x0:456x385/250x250/cdn0.vox-cdn.com/uploads/chorus_image/image/50458207/facebook-lightstage-screenshots-1.0.0.png");
+    }
+    #elem-img5
+    {
+        background-image: url("https://cdn2.vox-cdn.com/thumbor/ZxTIYU1A0R6-3i80jotIYpuvuxs=/164x0:697x533/250x250/cdn0.vox-cdn.com/uploads/chorus_image/image/50457991/logitech-webcam-microsoft-windows-10-1.0.0.jpg");
+    }
+    #elem-img6
+    {
+         background-image: url("https://cdn1.vox-cdn.com/thumbor/X2jt-i7aOh2XhKBUMKqXW1HJht8=/236x0:2764x2528/250x250/cdn0.vox-cdn.com/uploads/chorus_image/image/50457925/Space_Shuttle_Columbia_launching.0.jpg");
+    }
+    #elem-img7
+    {
+        background-image: url("https://cdn0.vox-cdn.com/thumbor/PgahRWZXe488thsAjF3MJEd964Q=/417x0:2084x1667/250x250/cdn0.vox-cdn.com/uploads/chorus_image/image/50456625/akrales_160320_0972_A_119.0.0.png");
+    }
+    #elem-img8
+    {
+         background-image: url("https://cdn1.vox-cdn.com/thumbor/bj2Xr_G8MXpXk9_ov40eUazS9-A=/326x0:1686x1360/250x250/cdn0.vox-cdn.com/uploads/chorus_image/image/50447853/vladsavov08-19_0741stm-trestle.0.0.jpg");
+    }
+    #elem-img9
+    {
+        background-image: url("https://cdn1.vox-cdn.com/thumbor/Hv06dQTA50vufkM4U0pWuyydr3g=/0x79:1772x1851/250x250/cdn0.vox-cdn.com/uploads/chorus_image/image/50449015/Jamieson_beyonce.0.0.jpg");
+    }
+    .element-explanation p
+    {
+        line-height: 1.2;
+        font-size: 1.1rem;
+    }
+    .left .element
+    {
+        border-right: 1px solid #ddd;
+        border-bottom: 1px solid #ddd;
+    }
+    .right
+    {
+        border-right: 1px solid #ddd;
+    }
+    .center .element
+    {
+        border-bottom: 1px solid #ddd;
+    }
+    .element ul
+    {
+        padding-bottom: 5%;
+    }
+    #ninth-element,#fourth-element
+    {
+        border-bottom: 0px;
+    }
+    #first-element,#second-element
+    {
+        border-bottom: 1px solid #ddd;
+    }
+    .carousel
+    {
+        display: inline-block;
+    }
+    #carousel-header
+    {
+        background: white;
+        position: relative;
+        border-bottom: 2px solid grey;
+    }
+    #photo-essays
+    {
+        position: absolute;
+        left: 10%;
+        bottom: 0;
+    }
+    #photo-essays span
+    {
+        background: black;
+        color: white;
+        font-style: italic;
+        padding: 1% 2% 1% 2%;
+        font-size: 22px;
+        margin-left: 15%;
+        font-family: Roboto Condensed;
+    }
+    .carousel-content
+    {
+        display: inline-block;
+        overflow-y: hidden;
+        overflow-x: scroll;
+        white-space: nowrap;
+        font-size: 22px;
+        height: 175px;
+    }
+    .carousel-items 
+    {
+        display: inline-block;
+        vertical-align: top;
+        white-space: normal;
+        height: 100%;
+        width: 45%;
+        background-size: cover;
+        background-position: center;
+        box-shadow: inset 0 0 50px rgba(0,0,0,0.5);
+        position: relative;
+        /*float: left;*/
+    }
+    .carousel-items:after
+    {
+        content: " ";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        opacity: 0.6;
+    }
+    #carousel-item1
+    {
+        background-image: url("https://cdn0.vox-cdn.com/thumbor/Rz2fzD2SOdTCFcFxCPoI0BOwVyk=/0x157:3000x1845/680x383/cdn0.vox-cdn.com/uploads/chorus_image/image/50469881/2016-Cadillac-Escala-Concept-Exterior-004.0.0.jpg");
+    }
+    
+    #carousel-item1:after
+    {
+        background: #417711;
+        background-image: linear-gradient(135deg, #417711,#a83279);
+    }
+    #carousel-item2
+    {
+        background-image: url("https://cdn2.vox-cdn.com/thumbor/JL68ad-LMvldIovrb4jCvxG5ylQ=/900x0:8100x4050/680x383/cdn0.vox-cdn.com/uploads/chorus_image/image/50444247/16C708_02.0.0.jpg");
+    }
+    #carousel-item2:after
+    {
+        background: #292484;
+        background-image: linear-gradient(135deg, #292484,#dc4225);
+    }
+    #carousel-item3
+    {
+        background-image: url("https://cdn0.vox-cdn.com/thumbor/K2VkGhenL8hI41MV0egWVRk1lNg=/0x54:1024x630/680x383/cdn0.vox-cdn.com/uploads/chorus_image/image/50279923/13909015_1342015949159179_6822123175964675488_o.0.0.jpg");
+    }
+    #carousel-item3:after
+    {
+        background-color: #d38312;
+       background-image: linear-gradient(135deg, #dc4225,#e0be00);
+    }
+    #carousel-item4
+    {
+        background-image: url("https://cdn2.vox-cdn.com/thumbor/AVfAanV6D4ZhpkhELImOgbKlCW0=/0x0:1019x573/680x383/cdn0.vox-cdn.com/uploads/chorus_image/image/50215575/m07-27_0959vlad-savov.0.0.png");
+    }
+    #carousel-item4:after
+    {
+        background-color: #d38312;
+        background-image: linear-gradient(135deg, #d38312,#002f4b);
+    }
+    #carousel-item5
+    {
+        background-image: url("https://cdn2.vox-cdn.com/thumbor/e7_PitHDOTxdDAL_TPD8nzH8uWo=/0x0:2000x1125/680x383/cdn0.vox-cdn.com/uploads/chorus_image/image/50195813/panorama-finals-8754.0.0.jpg");
+    }
+    #carousel-item5:after
+    {
+        background-color: #002f4b;
+        background-image: linear-gradient(135deg, #002f4b,#417711);
+    }
+    .bottom-label
+    {
+        font-size: 2.5rem;
+        font-style: italic;
+        padding-top: 8%;
+        padding-bottom: 8%;
+        font-family: Roboto Condensed;
+    }
+    .bottom-label a
+    {
+        color: #fa4b2a;
+    }
+    #scroller2 
+    {
+        height: 200px;
+    }
+    #scroller2 .data-analysis-content
+    {
+        height: 200px;
+        width: 50%;
+    }
+    #eightcontent:after,#ninthcontent:after
+    {
+        height: 100%;
+    }
+    #scroller3 .data-analysis-content
+    {
+        width: 45%;
+    }
+    .back-to-top
+    {
+        display: none;
+    }
+
+    .search
+    {
+        width: 29%;
+        float: left;
+    }
+    .search input
+    {
+        height: 35px;
+    }
+    .first-footer-col,.second-footer-col,.social-media-links
+    {
+        width: 21%;
+        padding-top: 5%;
+    }
+    .footer-header-section
+    {
+        display: block;
+        font-size: 0.95rem;
+        color: white;
+        font-family: 'Roboto Condensed';
+    }
+    .footer-header-section em
+    {
+        color: #fa4b2a;
+        font-style: italic;
+    }
+    .vox-media
+    {
+        padding-top: 4%;
+        position: relative;
+        right: 4%;
+        text-align: right;
+    }
+    .footer-terms
+    {
+        display: block;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        padding-left: 3%;
+    }
+    .logo-appears
+    {
+        display: block;
+    }
+    .logo-appears img
+    {
+        width: 90%;
+        padding-left: 5%;
+    }
+/*}*/
