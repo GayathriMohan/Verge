@@ -1,8 +1,8 @@
 body {
-    background: #fff;
+    font-family: Arial;
 }
 
-header {
+.pageheader {
     background-color: #fa4b2a;
     height: 60px;
     position: relative;
@@ -12,6 +12,7 @@ header {
 
 a {
     text-decoration: none;
+    color: white;
 }
 
 .logo {
@@ -26,7 +27,7 @@ a {
     color: white;
 }
 
-.logo img {
+#verge-logo {
     width: 73%;
     height: 58%;
     position: absolute;
@@ -41,7 +42,7 @@ a {
     position: relative;
 }
 
-.navigation-container img {
+.navigation-container #menu-icon {
     height: 45%;
     width: 40%;
     position: absolute;
@@ -88,7 +89,7 @@ a {
     top: 2%;
 }
 
-.user div {
+.user span {
     position: absolute;
     left: 28%;
     top: 3%;
@@ -97,7 +98,7 @@ a {
     text-transform: uppercase;
 }
 
-#remain {
+.same-border-items {
     border-left: 4px solid #fa4b2a;
 }
 
@@ -193,10 +194,6 @@ a {
     border-top: 1px solid white;
 }
 
-.right-articles h3 {
-    height: 60px;
-}
-
 .articles-display span {
     font-size: 0.65rem;
     color: #333;
@@ -205,7 +202,7 @@ a {
     padding: 0.5rem 1rem 0 1rem;
 }
 
-.six-articles h3 {
+.date-of-publish {
     background: #fa4b2a;
     color: #fff;
     display: inline-block;
@@ -620,11 +617,12 @@ a {
     padding-top: 6%;
 }
 
-.section-image,
+.side-image,
 .section-content {
     display: table-cell;
     padding-right: 0.5rem;
     vertical-align: top;
+    padding-left: 2%;
 }
 
 .section-content a {
@@ -667,136 +665,66 @@ a {
     margin-left: 2%;
 }
 
-#chromebook-image {
+.chromebook-image {
     background-image: url("https://cdn3.vox-cdn.com/thumbor/ZFvJVQReybEVC2oaKIIj-nySvec=/339x0:1701x1362/250x250/cdn0.vox-cdn.com/uploads/chorus_image/image/50461057/toshiba-chromebook-review1_2040.0.jpg");
 }
 
-#lamborgini-image {
+.lamborgini-image {
     background-image: url("https://cdn1.vox-cdn.com/thumbor/FH3vK4C4Og6TGavXfckHOUNy-kw=/1771x0:5314x3543/250x250/cdn0.vox-cdn.com/uploads/chorus_image/image/50458741/446158.0.0.jpg");
 }
 
-#convertible-image {
+.convertible-image {
     background-image: url("https://cdn0.vox-cdn.com/thumbor/YaV5QIsbjICqn3kyT_2TPX54fRc=/1159x0:4158x2999/250x250/cdn0.vox-cdn.com/uploads/chorus_image/image/50458605/Vanquish_Zagato_Volante__2_.0.0.jpg");
 }
 
-#phone-image {
+.phone-image {
     background-image: url("https://cdn2.vox-cdn.com/thumbor/iK-y_kGojEanJ0SKl7EHiQ8DLuQ=/71x0:456x385/250x250/cdn0.vox-cdn.com/uploads/chorus_image/image/50458207/facebook-lightstage-screenshots-1.0.0.png");
 }
 
-#microsoft-image {
+.microsoft-image {
     background-image: url("https://cdn2.vox-cdn.com/thumbor/ZxTIYU1A0R6-3i80jotIYpuvuxs=/164x0:697x533/250x250/cdn0.vox-cdn.com/uploads/chorus_image/image/50457991/logitech-webcam-microsoft-windows-10-1.0.0.jpg");
 }
 
-#nasa-image {
+.nasa-image {
     background-image: url("https://cdn1.vox-cdn.com/thumbor/X2jt-i7aOh2XhKBUMKqXW1HJht8=/236x0:2764x2528/250x250/cdn0.vox-cdn.com/uploads/chorus_image/image/50457925/Space_Shuttle_Columbia_launching.0.jpg");
 }
 
-#lyst-image {
+.lyst-image {
     background-image: url("https://cdn0.vox-cdn.com/thumbor/PgahRWZXe488thsAjF3MJEd964Q=/417x0:2084x1667/250x250/cdn0.vox-cdn.com/uploads/chorus_image/image/50456625/akrales_160320_0972_A_119.0.0.png");
 }
 
-#bagpack-image {
+.bagpack-image {
     background-image: url("https://cdn1.vox-cdn.com/thumbor/bj2Xr_G8MXpXk9_ov40eUazS9-A=/326x0:1686x1360/250x250/cdn0.vox-cdn.com/uploads/chorus_image/image/50447853/vladsavov08-19_0741stm-trestle.0.0.jpg");
 }
-
-#jam-image {
-    background-image: url("https://cdn1.vox-cdn.com/thumbor/Hv06dQTA50vufkM4U0pWuyydr3g=/0x79:1772x1851/250x250/cdn0.vox-cdn.com/uploads/chorus_image/image/50449015/Jamieson_beyonce.0.0.jpg");
-}
-
-#image-1 {
-    background-image: url("https://cdn0.vox-cdn.com/thumbor/46aocttJEBfXxLfIdLFYVAeG6vQ=/145x0:830x685/250x250/cdn0.vox-cdn.com/uploads/chorus_image/image/50455233/MV5BMjAwODc0OTkxN15BMl5BanBnXkFtZTgwODc3NTk2MDE_._V1_SY1000_CR0_0_1485_1000_AL_-1020.0.0.jpg");
-}
-
-#image-2 {
-    background-image: url("https://cdn1.vox-cdn.com/thumbor/a5Memo5Bowx0xksKlTrRPNNZh2w=/232x0:2384x2152/250x250/cdn0.vox-cdn.com/uploads/chorus_image/image/50455331/GettyImages-589071354.0.jpg");
-}
-
-#image-3 {
-    background-image: url("https://cdn3.vox-cdn.com/thumbor/PeCUms1sXuoUupQjbh2w5_ysp3c=/0x0:1360x1360/250x250/cdn0.vox-cdn.com/uploads/chorus_image/image/50454775/iphone-se-review-vpavic-verge-7.0.0.jpg");
-}
-
-#image-4 {
-    background-image: url("https://cdn3.vox-cdn.com/thumbor/Ov4b6qIdMj7PbBYrARIanuTj0rg=/331x0:1249x918/250x250/cdn0.vox-cdn.com/uploads/chorus_image/image/50454317/Dave-DeMar_WP_20160812_17_00_52_Pro.0.jpg");
-}
-
-#image-5 {
+.image-5 {
     background-image: url("https://cdn1.vox-cdn.com/thumbor/E29x45CYSqWcVYtoi0_iRtKnvk4=/160x0:800x640/250x250/cdn0.vox-cdn.com/uploads/chorus_image/image/50454167/frank-ocean-endless-01-960x640.0.0.jpg");
 }
 
-#image-6 {
+.image-6 {
     background-image: url("https://cdn2.vox-cdn.com/thumbor/-88A-F44TLr5D9Fr2VPxo4HHr7U=/422x0:1502x1080/250x250/cdn0.vox-cdn.com/uploads/chorus_image/image/50453657/Vergecast-1080.0.0.jpg");
 }
 
-#image-7 {
+.image-7 {
     background-image: url("https://cdn0.vox-cdn.com/thumbor/-LyqFVEzXamzSRMF_-AhJ2x7n9w=/563x0:1991x1428/250x250/cdn0.vox-cdn.com/uploads/chorus_image/image/50453723/Screen_Shot_2015-04-10_at_8.43.02_AM.0.0.png");
 }
 
-#image-8 {
+.image-8 {
     background-image: url("https://cdn2.vox-cdn.com/thumbor/PstIgkn2kNy7gmWy7QGpddubpDI=/143x0:507x364/250x250/cdn0.vox-cdn.com/uploads/chorus_image/image/50453595/whale.0.0.gif");
 }
 
-#image-9 {
+.image-9 {
     background-image: url("https://cdn1.vox-cdn.com/thumbor/GML7LLYwts8nb-Zj5ST2OVt3bgg=/250x0:1250x1000/250x250/cdn0.vox-cdn.com/uploads/chorus_image/image/50463557/vpavic_070616_1091_0023.0.0.jpg");
 }
 
-#image-10 {
+.image-10 {
     background-image: url("https://cdn0.vox-cdn.com/thumbor/LB0i9EGiiMoBMGltUL9do3pIpfU=/417x0:2084x1667/250x250/cdn0.vox-cdn.com/uploads/chorus_image/image/50462999/akrales_160320_0972_A_092.0.0.png");
 }
 
-#image-11 {
+.image-11 {
     background-image: url("https://cdn1.vox-cdn.com/thumbor/NDgLFzg21qpFpGpxMfLRPEkRLs0=/502x0:2502x2000/250x250/cdn0.vox-cdn.com/uploads/chorus_image/image/50462853/GettyImages-151231990.0.jpg");
 }
-
-#image-12 {
-    background-image: url("https://cdn1.vox-cdn.com/thumbor/Z2yDHCuneXD9D8mX6qiAy0BZ7V0=/84x0:476x392/250x250/cdn0.vox-cdn.com/uploads/chorus_image/image/50462569/theverge1_560.0.jpg");
-}
-
-#image-13 {
-    background-image: url("https://cdn1.vox-cdn.com/thumbor/bxw15qpO0mgn-z6KsxJJgLbiLjA=/341x0:1700x1359/250x250/cdn0.vox-cdn.com/uploads/chorus_image/image/50391653/jbareham_160729_1150_0031.0.0.jpg");
-}
-
-#image-14 {
-    background-image: url("https://cdn0.vox-cdn.com/thumbor/pxTXE2T24tCRYTI9fnj6D_oKO0Q=/272x0:1356x1084/250x250/cdn0.vox-cdn.com/uploads/chorus_image/image/50461543/Screen_Shot_2016-08-20_at_11.45.48_AM.0.0.png");
-}
-
-#image-15 {
-    background-image: url("https://cdn3.vox-cdn.com/thumbor/cRwBuSUgTwde2suZ7n1CHRJor-U=/200x0:1000x800/250x250/cdn0.vox-cdn.com/uploads/chorus_image/image/50453377/gopro-hero-4-session-7882.0.0.0.png");
-}
-
-#image-16 {
+.image-16 {
     background-image: url("https://cdn3.vox-cdn.com/thumbor/YE0HS0Kvw9y9_c4iDn3TBVqjgHY=/170x0:845x675/250x250/cdn0.vox-cdn.com/uploads/chorus_image/image/50452603/DSC_7374.0.0.jpg");
-}
-
-#image-17 {
-    background-image: url("https://cdn1.vox-cdn.com/thumbor/yHZ7z2QMGqZmSVkrtIUN6KxyU30=/110x0:765x655/250x250/cdn0.vox-cdn.com/uploads/chorus_image/image/50452401/Screen_20Shot_202016-08-19_20at_2011.13.57_20AM.0.png");
-}
-
-#image-18 {
-    background-image: url("https://cdn0.vox-cdn.com/thumbor/AK8U0tr1rTH5x00pvVbTtUVphP8=/341x0:1701x1360/250x250/cdn0.vox-cdn.com/uploads/chorus_image/image/50438731/applewilliamsb1_2040.0.0.jpg");
-}
-
-#image-19 {
-    background-image: url("https://cdn0.vox-cdn.com/thumbor/1aLAnJH-DIFhDDotNXphItMVYkA=/407x0:1792x1385/250x250/cdn0.vox-cdn.com/uploads/chorus_image/image/50451735/Screen_Shot_2016-08-19_at_12.10.02_PM.0.0.png");
-}
-
-#image-20 {
-    background-image: url("https://cdn1.vox-cdn.com/thumbor/0KShthm_gHBkjDvn77MxNxbBpVY=/115x0:574x459/250x250/cdn0.vox-cdn.com/uploads/chorus_image/image/50451361/https-_252F_252Fblueprint-api-production.s3.amazonaws.com_252Fuploads_252Fcard_252Fimage_252F184199_252FScreen_Shot_2016-08-19_at_9.14.15_AM.0.png");
-}
-
-#image-21 {
-    background-image: url("https://cdn1.vox-cdn.com/thumbor/7bXTbgDmHE5vT48EsbpHekSNF1k=/147x0:871x724/250x250/cdn0.vox-cdn.com/uploads/chorus_image/image/50450419/hotspots.0.jpg");
-}
-
-#image-22 {
-    background-image: url("https://cdn0.vox-cdn.com/thumbor/pMck6vDbq6iEvIc3N494dmOFrNw=/127x0:892x765/250x250/cdn0.vox-cdn.com/uploads/chorus_image/image/50449547/padlock-1020.0.jpg");
-}
-
-#image-23 {
-    background-image: url("https://cdn2.vox-cdn.com/thumbor/6JnqrKfKrTz1rY8o0-N5P9fRooQ=/184x0:916x732/250x250/cdn0.vox-cdn.com/uploads/chorus_image/image/50448489/NSA-photo-by-Trevor-Paglen.0.jpg");
-}
-
-#image-24 {
-    background-image: url("https://cdn2.vox-cdn.com/thumbor/osCMOLQ1DqoJ2LKRq9sSYavOhwY=/336x0:1697x1361/250x250/cdn0.vox-cdn.com/uploads/chorus_image/image/50452437/verge-2015-09-29_11-01-54.0.0.jpg");
 }
 
 .see-all-news {
@@ -1057,7 +985,7 @@ footer {
         background-repeat: no-repeat;
         margin-bottom: 5%;
     }
-    .element-explanation p {
+    .element-explanation {
         line-height: 1.2;
         font-size: 1.1rem;
     }
@@ -1174,36 +1102,36 @@ footer {
         background-color: #002f4b;
         background-image: linear-gradient(135deg, #002f4b, #417711);
     }
-    #carousel-elem1 {
+    .carousel-elem1 {
         background-image: url("https://cdn3.vox-cdn.com/thumbor/ZxKnGBhONlw1cHIVj8KgwBAkVQg=/50x0:590x360/400x267/filters:format(webp)/cdn0.vox-cdn.com/uploads/chorus_image/image/49870023/27624302406_30941631e1_z.0.jpg");
     }
-    #carousel-elem1:after,
-    #carousel-elem5:after {
+    .carousel-elem1:after,
+    .carousel-elem5:after {
         background-color: #292484;
         background-image: linear-gradient(135deg, #292484, #dc4225);
     }
-    #carousel-elem2 {
+    .carousel-elem2 {
         background-image: url("https://cdn0.vox-cdn.com/thumbor/VumI43TzvaCKJQDOCyBSC2cXhTY=/153x0:1233x720/400x267/filters:format(webp)/cdn0.vox-cdn.com/uploads/chorus_image/image/49871587/Zelda_E3_5pm_SCRN06_bmp_jpgcopy.0.0.jpg");
     }
-    #carousel-elem2:after {
+    .carousel-elem2:after {
         background-color: #417711;
         background-image: linear-gradient(135deg, #417711, #a83279);
     }
-    #carousel-elem3 {
+    .carousel-elem3 {
         background-image: url("https://cdn2.vox-cdn.com/thumbor/_dXl5vq4lmsgKFWYYW6USrKnxts=/0x0:1500x1000/400x267/filters:format(webp)/cdn0.vox-cdn.com/uploads/chorus_image/image/49867027/pokemon-go-nick_statt-2016-1.0.0.jpg");
     }
-    #carousel-elem3:after {
+    .carousel-elem3:after {
         background-color: #d38312;
         background-image: linear-gradient(135deg, #d38312, #002f4b);
     }
-    #carousel-elem4 {
+    .carousel-elem4 {
         background-image: url("https://cdn0.vox-cdn.com/thumbor/NAM7jDrN9s9pQi1JAT5Zb4Uhma8=/100x0:1180x720/400x267/cdn0.vox-cdn.com/uploads/chorus_image/image/49850857/Swift_Playground1-GIF_White_1280x720.0.0.gif");
     }
-    #carousel-elem4:after {
+    .carousel-elem4:after {
         background: #dc4225;
         background-image: linear-gradient(135deg, #dc4225, #e0be00);
     }
-    #carousel-elem5 {
+    .carousel-elem5 {
         background-image: url("https://cdn3.vox-cdn.com/thumbor/qGki4XXqH1rtSDdNut69WfrIRoc=/147x0:938x527/400x267/filters:format(webp)/cdn0.vox-cdn.com/uploads/chorus_image/image/49854265/Ck7UtqjWsAAjWeL.0.0.jpg");
     }
     .storystreams {
@@ -1261,8 +1189,6 @@ footer {
         padding-right: 0%;
         border-bottom: 1px solid #ddd;
     }
-    #elem-10,
-    #elem-12,
     #elem-14,
     #elem-16,
     #elem-18,
@@ -1273,8 +1199,6 @@ footer {
         border-right: 1px solid #ddd;
         padding-right: 2%;
     }
-    #elem-11,
-    #elem-13,
     #elem-15,
     #elem-17,
     #elem-19 {
@@ -1324,6 +1248,7 @@ footer {
         position: absolute;
         right: 0;
         background-size: cover;
+        /*background:no-repeat center;*/
         background-position: center;
         background-repeat: no-repeat;
     }
@@ -1477,10 +1402,8 @@ footer {
         width: 100%;
         display: block;
         padding-top: 7%;
+        background:url('https://cdn1.vox-cdn.com/uploads/chorus_asset/file/6820307/vrg_mr_robot_banner_2050x150px-1.0.jpg') no-repeat center;
         background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-        background-image: url('https://cdn1.vox-cdn.com/uploads/chorus_asset/file/6820307/vrg_mr_robot_banner_2050x150px-1.0.jpg');
     }
     #promo-video-section {
         width: 100%;
