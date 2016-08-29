@@ -10,7 +10,7 @@ body {
 }
 a {
     text-decoration: none;
-    color: white;
+    color: #fff;
 }
 .logo {
     height: inherit;
@@ -56,7 +56,7 @@ a {
     padding: 8px 8px 18px 32px;
     font-size: 10px;
     font-weight: bold;
-    color: white;
+    color: #fff;
     display: block;
     transition: 0.3s;
     background-color: #222;
@@ -147,7 +147,7 @@ a {
     background-color: #111;
     overflow-x: hidden;
     transition: 0.3s;
-    background-color: white;
+    background-color: #fff;
     border-left: 2px solid #fa4b2a;
 }
 #right-articles ul li a {
@@ -155,11 +155,11 @@ a {
     font-size: 14px;
     font-family: Serif;
     font-weight: normal;
-    color: black;
+    color: #000;
     line-height: 1.1rem;
     display: block;
     transition: 0.3s;
-    background-color: white;
+    background-color: #fff;
     border-top: 1px solid white;
 }
 .articles-display span {
@@ -193,7 +193,7 @@ a {
     background-color: #111;
     overflow-x: hidden;
     transition: 0.3s;
-    background-color: white;
+    background-color: #fff;
     border-left: 2px solid #fa4b2a;
 }
 .data-analysis-content {
@@ -212,7 +212,7 @@ a {
     width: 100%;
     min-height: 177px;
     box-sizing: border-box;
-    background-color: black;
+    background-color: #000;
     opacity: 0.7;
 }
 #firstcontent {
@@ -324,7 +324,7 @@ a {
 }
 .data-analysis-content h2,
 .carousel-content h2 {
-    color: white;
+    color: #fff;
     font-size: 22px;
     font-family: 'Roboto Slab';
     z-index: 1;
@@ -363,12 +363,12 @@ a {
     float: right;
 }
 #first-content-comment {
-    background-color: green;
+    background-color:  #008000;
     color: #fff;
 }
 #second-content-comment {
-    background-color: yellow;
-    color: black;
+    background-color: #FFFF00;
+    color: #000;
 }
 #third-content-comment {
     background-color: #003555;
@@ -417,7 +417,7 @@ a {
     padding-left: 2%;
 }
 .section-content a {
-    color: black;
+    color: #000;
 }
 .section-content h3 {
     font-family: 'Roboto Slab';
@@ -528,7 +528,7 @@ footer {
 .search {
     width: 100%;
     float: left;
-    background-color: black;
+    background-color: #000;
 }
 .form-search {
     padding: 10% 6% 6%;
@@ -613,7 +613,7 @@ footer {
     font-size: 0.75rem;
 }
 .footer-terms span {
-    color: white;
+    color: #fff;
     font-size: 0.75rem;
     font-family: Arial;
 }
@@ -671,6 +671,10 @@ footer {
         display: inline-block;
         width: 49%;
     }
+    #verge-logo {
+    width: 82%;
+    height: 70%;
+    }
     .center {
         vertical-align: top;
     }
@@ -693,14 +697,14 @@ footer {
         line-height: 1.2;
     }
     .element h3 a {
-        color: black;
+        color: #000;
         font-family: 'Arial';
     }
     .element-metadata {
-        padding: 5% 0 5% 0;
+        padding: 5% 0;
     }
     .element-metadata a {
-        color: black;
+        color: #000;
         font-weight: bold;
     }
     .element-metadata em {
@@ -749,7 +753,7 @@ footer {
         overflow-y: hidden;
         overflow-x: scroll;
         white-space: nowrap;
-        font-size: 0px;
+        font-size: 0;
         height: 175px;
     }
     .carousel-items {
@@ -1006,7 +1010,7 @@ footer {
     .footer-header-section {
         display: block;
         font-size: 0.95rem;
-        color: white;
+        color: #fff;
         font-family: 'Roboto Condensed';
     }
     .footer-header-section em {
@@ -1098,15 +1102,78 @@ footer {
         background-size: cover;
     }
     #promo-video-section {
+        display: block;
         width: 100%;
         background: #222;
         border-top: 1px solid #666;
         border-bottom: 1px solid #666;
     }
-    #promo-video-title {
+    #promo-video-title,#video-display {
         width: 100%;
         height: 50px;
         background: #222;
+    }
+    #video-display{
+        background-image: url("https://cdn0.vox-cdn.com/thumbor/2ESohqts79en3sF8E7D4JZYvbQs=/0x0:1920x108…rus_image/image/50423433/VRG_TMN_051_Best_Universal_Remote_Thumb.0.0.jpeg");
+        width: 60%;
+        height: 280px;
+        display: inline-block;
+        position: relative;
+    }
+    #video-display:after
+    {
+        content:'';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        opacity: 0.7;
+        background-image: linear-gradient(135deg, #dc4225,#002f4b);
+    }
+    #video-scroller{
+        white-space: nowrap;
+        overflow-x: hidden;
+        overflow-y: scroll;
+        display: inline-block;
+        vertical-align: top;
+        width: 39%;
+        height: 280px;
+    }
+    #video-scroller article
+    {
+        width: 100%;
+    }
+    .video-image
+    {
+        height: 100px;
+        width: 35%;
+        display: inline-block;
+        background-size: cover;
+        background-position: center;
+    }
+    #video-scroller p
+    {
+        color: #fff;
+        display: inline-block;
+        padding-top: 15%;
+        vertical-align: top;
+    }
+    .play-icon
+    {
+        background-image:url("http://senior.gov.pl/assets/img/content/multimedia/play_icon.png"); 
+    }
+    #first-child{
+        background-image: url("https://cdn2.vox-cdn.com/thumbor/5Yf5nxyk5H9qIYNKCCEqGtlOTsM=/0x129:1195x926/180x120/filters:format(webp)/cdn0.vox-cdn.com/uploads/chorus_image/image/50499197/vrg_1183_timn_thumb_video_01.0.0.jpg");
+    }
+    #second-child{
+        background-image: url("https://cdn1.vox-cdn.com/thumbor/wQUCFo2w3JNyDARR71biCQfp7cM=/729x0:1773x696/180x120/filters:format(webp)/cdn0.vox-cdn.com/uploads/chorus_image/image/50423283/VRG_VHO_548_Honor_8_Thumb_2.0.0.jpg");
+    }
+    #third-child{
+        background-image: url("https://cdn0.vox-cdn.com/thumbor/qiHBAx8l-FmLIvzPdNENjkIKUSo=/748x0:1784x691/180x120/filters:format(webp)/cdn0.vox-cdn.com/uploads/chorus_image/image/50414023/vrg_note_seven_thumb.0.0.jpg");
+    }
+    #fourth-child{
+        background-image: url("https://cdn3.vox-cdn.com/thumbor/LAspaCV65ThTiJiAjYrYo8KYaY0=/120x369:1106x1026/180x120/filters:format(webp)/cdn0.vox-cdn.com/uploads/chorus_image/image/50295701/TIMB_RecordPlayer_THUMB_small.0.0.jpg");
     }
     #title-icon {
         display: inline-block;
@@ -1114,7 +1181,7 @@ footer {
         margin-top: 2%;
     }
     #promo-video-title span {
-        color: white;
+        color: #fff;
         font-size: 22px;
         font-family: 'Roboto Condensed';
     }
@@ -1136,19 +1203,19 @@ footer {
     #firstcontent {
         top: 0;
         left: 0;
-        width: 341px;
+        width: 33%;
         height: 350px;
     }
     #secondcontent {
         top: 0;
-        left: 341px;
-        width: 341px;
+        left: 33%;
+        width: 33%;
         height: 175px;
     }
     #thirdcontent {
         top: 0;
-        left: 682px;
-        width: 341px;
+        left: 66%;
+        width: 34%;
         height: 175px;
     }
     #scroller {
@@ -1156,15 +1223,15 @@ footer {
     }
     #fourthcontent {
         top: 175px;
-        left: 341px;
-        width: 341px;
+        left: 33%;
+        width: 33%;
         height: 175px;
         position: absolute;
     }
     #fifthcontent {
         top: 175px;
-        left: 682px;
-        width: 341px;
+        left: 66%;
+        width: 34%;
         height: 350px;
         position: absolute;
     }
@@ -1174,14 +1241,14 @@ footer {
     #sixthcontent {
         top: 350px;
         left: 0;
-        width: 341px;
+        width: 33%;
         height: 175px;
         position: absolute;
     }
     #seventhcontent {
         top: 350px;
-        left: 341px;
-        width: 341px;
+        left: 33%;
+        width: 33%;
         height: 175px;
         position: absolute;
     }
