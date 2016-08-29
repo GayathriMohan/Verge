@@ -8,7 +8,6 @@ function CloseNav() {
     document.getElementById("nav-hidden-menu").style.transform = "translateX(-100%)";
 
 }
-
 function OpenArticles()
 {
 	document.getElementById("right-articles").style.transform= "translateX(-100%)";
