@@ -19,7 +19,7 @@
                 <img src="images/menu.png" id="menu-icon" alt="menu" onclick="opennav()">
             </a>
         </span>
-        <nav class="nav-menu" id="nav-menu">
+        <nav id="nav-menu">
             <ul>
                 <li class="user">
                     <a href="#">
@@ -42,8 +42,8 @@
                 <li class="same-border-items"><a href="#">MORE SECTIONS</a></li>
             </ul>
         </nav>
-        <div class="nav-hidden-menu" id="nav-hidden-menu" onclick="closeNav()"></div>
-        <nav class="right-articles" id="right-articles">
+        <div  id="nav-hidden-menu" onclick="closeNav()"></div>
+        <nav id="right-articles">
             <h3 class="date-of-publish">August 19, 2016</h3>
             <ul class="article-sublist">
                 <li class="articles-display">
@@ -77,39 +77,39 @@
                 <em>NEW ARTICLES</em>
             </a>
         </span>
-        <div class="right-hidden-articles" id="right-hidden-articles" onclick="closearticles()"></div>
+        <div  id="right-hidden-articles" onclick="closearticles()"></div>
     </header>
     <main>
         <section class="data-analysis">
-            <article class="data-analysis-content" id="firstcontent" onclick="location.href='#'">
+            <article class="data-analysis-content article-content" id="firstcontent" onclick="location.href='#'">
                 <h2>Live: Watch Delta IV rocket launch a pair of satellites to spy on objects in space</h2>
                 <p class="author-name">By Loren Grush
                     <span class="comment-count" id="first-content-comment">2</span>
                 </p>
             </article>
-            <article class="data-analysis-content" id="secondcontent" onclick="location.href='#'">
+            <article class="data-analysis-content article-content" id="secondcontent" onclick="location.href='#'">
                 <h2>Twitter now lets any user filter out threats and abuse</h2>
                 <p class="author-name">By Nick Statt
                     <span class="comment-count" id="second-content-comment">23</span>
                 </p>
             </article>
-            <article class="data-analysis-content" id="thirdcontent" onclick="location.href='#'">
+            <article class="data-analysis-content article-content" id="thirdcontent" onclick="location.href='#'">
                 <h2>17-inch gaming laptops are one big compromise</h2>
                 <p class="author-name">By Jordan Golson
                     <span class="comment-count" id="third-content-comment">111</span>
                 </p>
             </article>
             <section class="data-analysis-scroller" id="scroller">
-                <article class="data-analysis-content" id="fourthcontent" onclick="location.href='#'">
+                <article class="data-analysis-content article-content" id="fourthcontent" onclick="location.href='#'">
                     <h2>Twitter now lets any user filter out threats and abuse</h2>
                 </article>
-                <article class="data-analysis-content" id="fifthcontent" onclick="location.href='#'">
+                <article class="data-analysis-content article-content" id="fifthcontent" onclick="location.href='#'">
                     <h2>Twitter now lets any user filter out threats and abuse</h2>
                 </article>
-                <article class="data-analysis-content" id="sixthcontent" onclick="location.href='#'">
+                <article class="data-analysis-content article-content" id="sixthcontent" onclick="location.href='#'">
                     <h2>Twitter now lets any user filter out threats and abuse</h2>
                 </article>
-                <article class="data-analysis-content" id="seventhcontent" onclick="location.href='#'">
+                <article class="data-analysis-content article-content" id="seventhcontent" onclick="location.href='#'">
                     <h2>Twitter now lets any user filter out threats and abuse</h2>
                 </article>
             </section>
@@ -186,7 +186,7 @@
                     </p>
                 </article>
             </div>
-            <ul class="section-article-display firstul">
+            <ul class="section-article-display hideul">
                 <li>
                     <div class="side-image chromebook-image" onclick="location.href='#'"></div>
                     <div class="section-content">
@@ -230,10 +230,10 @@
             </ul>
         </section>
         <div class="data-analysis-scroller" id="scroller2">
-            <div class="data-analysis-content" id="eightcontent" onclick="location.href='#'">
+            <div class="data-analysis-content article-content" id="eightcontent" onclick="location.href='#'">
                 <h2>Twitter now lets any user filter out threats and abuse</h2>
             </div>
-            <div class="data-analysis-content" id="ninthcontent" onclick="location.href='#'">
+            <div class="data-analysis-content article-content" id="ninthcontent" onclick="location.href='#'">
                 <h2>Twitter now lets any user filter out threats and abuse</h2>
             </div>
         </div>
@@ -305,7 +305,7 @@
                     </p>
                 </article>
             </div>
-            <ul class="section-article-display firstul">
+            <ul class="section-article-display hideul">
                 <li>
                     <div class="side-image microsoft-image" onclick="location.href='#'"></div>
                     <div class="section-content">
@@ -349,13 +349,6 @@
             </ul>
         </section>
         <section class="carousel">
-            <header class="carousel-header">
-                <div class="imp-shape">
-                    <img src="images/star1.png" height="82" width="86" alt="star-image">
-                    <span>MOST <br> RECENT</span>
-                </div>
-                <span>PHOTO ESSAYS</span>
-            </header>
             <section class="carousel-content">
                 <article class="carousel-items" id="carousel-item1" onclick="location.href='#'">
                     <h2>Cadillac's fantastic Escala concept is more New York than Detroit</h2>
@@ -375,7 +368,7 @@
             </section>
         </section>
         <section class="article-display section3">
-            <article class="element" id="elem-14">
+            <article class="element even">
                 <h3><a href="">Frank Ocean's visual album Endless is an exercise in enjoying the wait</a></h3>
                 <p class="element-metadata">
                     <strong><a href="">Colin Lecher</a></strong>
@@ -387,7 +380,7 @@
                     <i>Halt and Catch Fire</i> , the 1980s-set drama about the rise of personal computers, has started early. AMC viewers can watch the series premiere right now, after the network sneakily bumped... , the 1980s-set drama about the rise of personal computers, has started early. AMC viewers can watch the series premiere right now, after the network sneakily bumped...
                 </p>
             </article>
-            <article class="element" id="elem-15">
+            <article class="element odd">
                 <h3><a href="">We're here to help you understand these new data plans</a></h3>
                 <p class="element-metadata">
                     <strong><a href="">Colin Lecher</a></strong>
@@ -399,7 +392,7 @@
                     <i>Halt and Catch Fire</i> , the 1980s-set drama about the rise of personal computers, has started early. AMC viewers can watch the series premiere right now, after the network sneakily bumped...
                 </p>
             </article>
-            <article class="element" id="elem-16">
+            <article class="element even">
                 <h3><a href="">GoPro's Hero 5 might let you tag awesome moments by saying 'that was sick' out loud</a></h3>
                 <p class="element-metadata">
                     <strong><a href="">Colin Lecher</a></strong>
@@ -411,7 +404,7 @@
                     <i>Halt and Catch Fire</i> , the 1980s-set drama about the rise of personal computers, has started early. AMC viewers can watch the series premiere right now, after the network sneakily bumped...
                 </p>
             </article>
-            <article class="element" id="elem-17">
+            <article class="element odd">
                 <h3><a href="">Humpback whale nearly pulls a Free Willy onto a pack of kayakers</a></h3>
                 <p class="element-metadata">
                     <strong><a href="">Colin Lecher</a></strong>
@@ -423,7 +416,7 @@
                     <i>Halt and Catch Fire</i> , the 1980s-set drama about the rise of personal computers, has started early. AMC viewers can watch the series premiere right now, after the network sneakily bumped...
                 </p>
             </article>
-            <ul class="section-article-display firstul">
+            <ul class="section-article-display hideul">
                 <li>
                     <div class="side-image image-5" onclick="location.href='#'"></div>
                     <div class="section-content">
@@ -467,24 +460,24 @@
             </ul>
         </section>
         <section class="data-analysis-scroller" id="scroller3">
-            <article class="data-analysis-content" id="content-10" onclick="location.href='#'">
+            <article class="data-analysis-content article-content" id="content-10" onclick="location.href='#'">
                 <h2>Twitter now lets any user filter out threats and abuse</h2>
             </article>
-            <article class="data-analysis-content" id="content-11" onclick="location.href='#'">
+            <article class="data-analysis-content article-content" id="content-11" onclick="location.href='#'">
                 <h2>Twitter now lets any user filter out threats and abuse</h2>
             </article>
-            <article class="data-analysis-content" id="content-12" onclick="location.href='#'" style="width:100%;">
+            <article class="data-analysis-content article-content" id="content-12" onclick="location.href='#'" style="width:100%;">
                 <h2>Twitter now lets any user filter out threats and abuse</h2>
             </article>
-            <article class="data-analysis-content" id="content-13" onclick="location.href='#'">
+            <article class="data-analysis-content article-content" id="content-13" onclick="location.href='#'">
                 <h2>Twitter now lets any user filter out threats and abuse</h2>
             </article>
-            <article class="data-analysis-content" id="content-14" onclick="location.href='#'">
+            <article class="data-analysis-content article-content" id="content-14" onclick="location.href='#'">
                 <h2>Twitter now lets any user filter out threats and abuse</h2>
             </article>
         </section>
         <section class="article-display section4">
-            <article class="element" id="elem-18">
+            <article class="element even">
                 <ul class="top-label">
                     <li>
                         <a href="">TV</a>
@@ -504,7 +497,7 @@
                     <a href="">MICROSOFT!!!!</a>
                 </p>
             </article>
-            <article class="element" id="elem-19">
+            <article class="element odd">
                 <h3><a href="">Uber doesn't think Lyft is worth more than $2 billion</a></h3>
                 <p class="element-metadata">
                     <strong><a href="">Colin Lecher</a></strong>
@@ -516,7 +509,7 @@
                     <i>Halt and Catch Fire</i> , the 1980s-set drama about the rise of personal computers, has started early. AMC viewers can watch the series premiere right now, after the network sneakily bumped...
                 </p>
             </article>
-            <article class="element" id="elem-20">
+            <article class="element even">
                 <h3><a href="">Former Navy SEAL will pay $6.6 million to settle with authorities over Bin Laden Raid book</a></h3>
                 <p class="element-metadata">
                     <strong><a href="">Colin Lecher</a></strong>
@@ -528,7 +521,7 @@
                     <i>Halt and Catch Fire</i> , the 1980s-set drama about the rise of personal computers, has started early. AMC viewers can watch the series premiere right now, after the network sneakily bumped...
                 </p>
             </article>
-            <ul class="section-article-display firstul">
+            <ul class="section-article-display hideul">
                 <li>
                     <div class="side-image image-9" onclick="location.href='#'"></div>
                     <div class="section-content">
@@ -562,10 +555,6 @@
             </ul>
         </section>
         <section class="carousel">
-            <header class="carousel-header">
-                <div class="imp-shape"><img src="images/star1.png" height="82" width="86" alt="star-image"> </div>
-                <span>STORYSTREAMS</span>
-            </header>
             <div class="carousel-content storystreams">
                 <div class="color-stream" id="yellow-stream">
                     <h2>SONY PLAYSTATION</h2>
@@ -635,7 +624,7 @@
             </div>
         </section>
         <section class="article-display section6">
-            <article class="element" id="elem-21">
+            <article class="element even">
                 <ul class="top-label">
                     <li><a href="">TV</a></li>
                 </ul>
@@ -663,7 +652,7 @@
                     </article>
                 </div>
             </section>
-            <ul class="section-article-display firstul">
+            <ul class="section-article-display hideul">
                 <li>
                     <div class="side-image image-16" onclick="location.href='#'"></div>
                     <div class="section-content">
